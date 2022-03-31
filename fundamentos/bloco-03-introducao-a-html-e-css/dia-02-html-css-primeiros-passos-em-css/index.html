@@ -6,17 +6,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HTML</title>
     <style>
+      body {
+        font-size: 16px;
+      }
+
       h1 {
         font-size: 65px;
         color: orange;
+        font-family: sans-serif;
+        text-align: center;
+      }
+
+      p {
+        font-weight: 600;
+        font-size: 300%;
       }
 
       ul {
         background-color: #ddd;
+        font-style: italic;
+        line-height: 1.5;
+        text-decoration: underline;
       }
 
       .background-color {
-        background-color: #999;
+        background-color: #eee;
+      }
+
+      ul :first-child {
+        background-color: yellow;
+      }
+
+      ul :nth-child(2) {
+        background-color: red;
+      }
+
+      ul :last-child {
+        background-color: brown;
       }
     </style>
   </head>
