@@ -1,0 +1,10 @@
+main {
+  display: grid;
+  grid-template-columns: 90fr 10fr;
+}
+
+.sticky-aside {
+  position: sticky;
+  top: 30px;
+  right: 0;
+}
