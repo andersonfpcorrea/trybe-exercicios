@@ -132,6 +132,10 @@ main {
   margin: 0 2rem;
 }
 
+.table caption {
+  display: none;
+}
+
 .table,
 .table td {
   border: 1px solid #333;
