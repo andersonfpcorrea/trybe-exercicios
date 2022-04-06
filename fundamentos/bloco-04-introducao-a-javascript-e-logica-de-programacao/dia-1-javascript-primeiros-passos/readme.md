@@ -60,5 +60,4 @@ Hoje, vamos aprender:
   - Percentage>=60 -> D
   - Percentage>=50 -> E
   - Percentage <50 -> F
-  - The program must return an error mensage and close if the input score is less than 0 or
-  - greater than 100.
+  - The program must return an error mensage and close if the input score is less than 0 or greater than 100.
