@@ -47,16 +47,16 @@ Hoje, vamos aprender:
   return false. If any angle were invalid the program must return an error message.
 
 - SIXTH EXERCISE: Write a program that receive the name of a chess's piece and return
-return the movements it is able to performance.
--- As a challenge, make the program work be not case sensitive, without creating additional
-conditions.
--- If the input name is invalid, the program must return an error message.
--- Example: bishop -> diagonals
--- Resolution:
-const chessPiece = prompt(
-`Write the name of any chess piece (in singular - e.g.: bishop) and we will let you know how it moves.`
-);
-<script>
+  return the movements it is able to performance.
+  -- As a challenge, make the program work be not case sensitive, without creating additional
+  conditions.
+  -- If the input name is invalid, the program must return an error message.
+  -- Example: bishop -> diagonals
+  -- Resolution:
+  const chessPiece = prompt(
+  `Write the name of any chess piece (in singular - e.g.: bishop) and we will let you know how it moves.`
+  );
+
 const arrayOfPieces = ["king", "hook", "bishop", "queen", "knight", "pawn"];
 const arrayOfMoves = [
 "Kings move one square in any direction, so long as that square is not attacked by an enemy piece. Additionally, kings are able to make a special move, known as castling.",
@@ -81,4 +81,3 @@ alert(
 `You wrote an invalid piece. Do not forget to write a singular name, not plural (e.g.: king, queen, bishop etc; dot not write bishops, knights, queens etc)`
 );
 }
-</script>
