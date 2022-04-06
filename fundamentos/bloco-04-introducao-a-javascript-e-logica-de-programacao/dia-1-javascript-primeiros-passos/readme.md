@@ -47,8 +47,38 @@ Hoje, vamos aprender:
   return false. If any angle were invalid the program must return an error message.
 
 - SIXTH EXERCISE: Write a program that receive the name of a chess's piece and return
-  return the movements it is able to performance.
-  -- As a challenge, make the program work be not case sensitive, without creating additional
-  conditions.
-  -- If the input name is invalid, the program must return an error message.
-  -- Example: bishop -> diagonals
+return the movements it is able to performance.
+-- As a challenge, make the program work be not case sensitive, without creating additional
+conditions.
+-- If the input name is invalid, the program must return an error message.
+-- Example: bishop -> diagonals
+-- Resolution:
+const chessPiece = prompt(
+`Write the name of any chess piece (in singular - e.g.: bishop) and we will let you know how it moves.`
+);
+<script>
+const arrayOfPieces = ["king", "hook", "bishop", "queen", "knight", "pawn"];
+const arrayOfMoves = [
+"Kings move one square in any direction, so long as that square is not attacked by an enemy piece. Additionally, kings are able to make a special move, known as castling.",
+"Rooks move horizontally or vertically any number of squares. They are unable to jump over pieces. Rooks move when the king castles.",
+"Bishops move diagonally any number of squares. They are unable to jump over pieces.",
+"Queens move diagonally, horizontally, or vertically any number of squares. They are unable to jump over pieces.",
+"Knights move in an 'L' shape: two squares in a horizontal or vertical direction, then move one square horizontally or vertically. They are the only piece able to jump over other pieces.",
+"Pawns move vertically forward one square, with the option to move two squares if they have not yet moved. Pawns are the only piece to capture different to how they move. The pawns capture one square diagonally in a forward direction. Pawns are unable to move backward on captures or moves. Upon reaching the other side of the board a pawn promotes into any other piece, except for a king. Additionally, pawns can make a special move named En Passant.",
+];
+let chosenPieceMove;
+
+for (let i = 0; i < 6; i++) {
+if (chessPiece.toLowerCase() === arrayOfPieces[i]) {
+chosenPieceMove = arrayOfMoves[i];
+}
+}
+
+if (chosenPieceMove) {
+alert(chosenPieceMove);
+} else if (!chosenPieceMove) {
+alert(
+`You wrote an invalid piece. Do not forget to write a singular name, not plural (e.g.: king, queen, bishop etc; dot not write bishops, knights, queens etc)`
+);
+}
+</script>
