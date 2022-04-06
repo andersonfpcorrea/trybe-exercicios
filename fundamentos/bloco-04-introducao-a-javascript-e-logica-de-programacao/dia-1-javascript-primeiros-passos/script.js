@@ -159,18 +159,38 @@ checkIfTriangle();
 // Percentage <50 -> F
 // The program must return an error mensage and close if the input score is less than 0 or
 // greater than 100.
-const scorePercentage = Number(
-  prompt(`Write your score: from 0 to 100. Use only numbers.`)
-);
-let scoreLetter;
-const scoreTransform = function () {
-  if (scorePercentage >= 0 && scorePercentage < 50) scoreLetter = "F";
-  else if (scorePercentage >= 50 && scorePercentage < 60) scoreLetter = "E";
-  else if (scorePercentage >= 60 && scorePercentage < 70) scoreLetter = "D";
-  else if (scorePercentage >= 70 && scorePercentage < 80) scoreLetter = "C";
-  else if (scorePercentage >= 80 && scorePercentage < 90) scoreLetter = "B";
-  else if (scorePercentage >= 90 && scorePercentage < 100) scoreLetter = "A";
-  else scoreLetter = `You wrote an invalid score. Please try again.`;
-};
-scoreTransform();
-alert(scoreLetter);
+
+// const scorePercentage = Number(
+//   prompt(`Write your score: from 0 to 100. Use only numbers.`)
+// );
+// let scoreLetter;
+// const scoreTransform = function () {
+//   if (scorePercentage >= 0 && scorePercentage < 50) scoreLetter = "F";
+//   else if (scorePercentage >= 50 && scorePercentage < 60) scoreLetter = "E";
+//   else if (scorePercentage >= 60 && scorePercentage < 70) scoreLetter = "D";
+//   else if (scorePercentage >= 70 && scorePercentage < 80) scoreLetter = "C";
+//   else if (scorePercentage >= 80 && scorePercentage < 90) scoreLetter = "B";
+//   else if (scorePercentage >= 90 && scorePercentage < 100) scoreLetter = "A";
+//   else scoreLetter = `You wrote an invalid score. Please try again.`;
+// };
+// scoreTransform();
+// alert(scoreLetter);
+
+// EIGTH EXERCISE: Create a program that define three numbers into const variables and
+// return "true" if at least one out of the three is even, if this condition is
+// not fullfilled, then return "false".
+
+// const firstInputNumber = prompt(`Write any number...`);
+// const secondInputNumber = prompt(`Write a second number...`);
+// const thirdInputNumber = prompt(`Write a last number...`);
+// const checkIfEven = function () {
+//   if (
+//     firstInputNumber % 2 === 0 ||
+//     secondInputNumber % 2 === 0 ||
+//     thirdInputNumber % 2 === 0
+//   )
+//     return true;
+//   else return false;
+// };
+// console.log(checkIfEven());
+// alert(checkIfEven());

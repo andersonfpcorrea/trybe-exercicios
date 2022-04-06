@@ -54,6 +54,7 @@ Hoje, vamos aprender:
   - Example: bishop -> diagonals
 
 - SEVENTH EXERCISE: Create a program that convert a score (given in percentage from 0 to 100) into scores from A to F. Follow these rules:
+
   - Percentage>=90 -> A
   - Percentage>=80 -> B
   - Percentage>=70 -> C
@@ -61,3 +62,7 @@ Hoje, vamos aprender:
   - Percentage>=50 -> E
   - Percentage <50 -> F
   - The program must return an error mensage and close if the input score is less than 0 or greater than 100.
+
+- EIGTH EXERCISE: Create a program that define three numbers into const variables and
+  return "true" if at least one out of the three is even, if this condition is
+  not fullfilled, then return "false".
