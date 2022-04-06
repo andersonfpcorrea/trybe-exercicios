@@ -25,3 +25,23 @@ Hoje, vamos aprender:
 - Escrever códigos em JavaScript que usam variáveis, constantes e tipos primitivos;
 - Utilizar conceitos da linguagem como a tipagem dinâmica e operadores lógicos/aritméticos/de atribuição no seu código;
 - Criar códigos que usam estruturas condicionais, como o if/else .
+
+## Exercises of the day
+
+- FIRST EXERCISE: make five calculator, one for each basic arithmetic operation.
+  The program must accept the value of two const variables (a, b), which
+  must be created before the calculators.
+
+- SECOND EXERCISE: Create a program that return the biggest of two numbers.
+  Assign beforehand two const variables with the values to be compared.
+
+- THIRD EXERCISE: Create a program that return the biggest of three numbers.
+  Assign beforehand three const variables with the values to be compared.
+
+- FORTH EXERCISE: Create a program that, given a value assigned to a const, return
+  the string "positive" if that value is positive, "negative" if negative or "zero"
+  if zero.
+
+- FIFTH EXERCISE: Create a program that define three variables with the values
+  of three internal angles of a triangle. Return true if the angles are from a triangle, if not
+  return false. If any angle were invalid the program must return an error message.
