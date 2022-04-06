@@ -120,30 +120,57 @@ checkIfTriangle();
 // conditions.
 // - If the input name is invalid, the program must return an error message.
 // - Example: bishop -> diagonals
-const chessPiece = prompt(
-  `Write the name of any chess piece (in singular - e.g.: bishop) and we will let you know how it moves.`
+
+// const chessPiece = prompt(
+//   `Write the name of any chess piece (in singular - e.g.: bishop) and we will let you know how it moves.`
+// );
+// const arrayOfPieces = ["king", "hook", "bishop", "queen", "knight", "pawn"];
+// const arrayOfMoves = [
+//   "Kings move one square in any direction, so long as that square is not attacked by an enemy piece. Additionally, kings are able to make a special move, known as castling.",
+//   "Rooks move horizontally or vertically any number of squares. They are unable to jump over pieces. Rooks move when the king castles.",
+//   "Bishops move diagonally any number of squares. They are unable to jump over pieces.",
+//   "Queens move diagonally, horizontally, or vertically any number of squares. They are unable to jump over pieces.",
+//   "Knights move in an 'L' shape: two squares in a horizontal or vertical direction, then move one square horizontally or vertically. They are the only piece able to jump over other pieces.",
+//   "Pawns move vertically forward one square, with the option to move two squares if they have not yet moved. Pawns are the only piece to capture different to how they move. The pawns capture one square diagonally in a forward direction. Pawns are unable to move backward on captures or moves. Upon reaching the other side of the board a pawn promotes into any other piece, except for a king. Additionally, pawns can make a special move named En Passant.",
+// ];
+// let chosenPieceMove;
+
+// for (let i = 0; i < 6; i++) {
+//   if (chessPiece.toLowerCase() === arrayOfPieces[i]) {
+//     chosenPieceMove = arrayOfMoves[i];
+//   }
+// }
+
+// if (chosenPieceMove) {
+//   alert(chosenPieceMove);
+// } else if (!chosenPieceMove) {
+//   alert(
+//     `You wrote an invalid piece. Do not forget to write a singular name, not plural (e.g.: king, queen, bishop etc; dot not write bishops, knights, queens etc)`
+//   );
+// }
+
+// SEVENTH EXERCISE: Create a program that convert a score (given in percentage from 0 to 100)
+// into scores from A to F. Follow these rules:
+// Percentage>=90 -> A
+// Percentage>=80 -> B
+// Percentage>=70 -> C
+// Percentage>=60 -> D
+// Percentage>=50 -> E
+// Percentage <50 -> F
+// The program must return an error mensage and close if the input score is less than 0 or
+// greater than 100.
+const scorePercentage = Number(
+  prompt(`Write your score: from 0 to 100. Use only numbers.`)
 );
-const arrayOfPieces = ["king", "hook", "bishop", "queen", "knight", "pawn"];
-const arrayOfMoves = [
-  "Kings move one square in any direction, so long as that square is not attacked by an enemy piece. Additionally, kings are able to make a special move, known as castling.",
-  "Rooks move horizontally or vertically any number of squares. They are unable to jump over pieces. Rooks move when the king castles.",
-  "Bishops move diagonally any number of squares. They are unable to jump over pieces.",
-  "Queens move diagonally, horizontally, or vertically any number of squares. They are unable to jump over pieces.",
-  "Knights move in an 'L' shape: two squares in a horizontal or vertical direction, then move one square horizontally or vertically. They are the only piece able to jump over other pieces.",
-  "Pawns move vertically forward one square, with the option to move two squares if they have not yet moved. Pawns are the only piece to capture different to how they move. The pawns capture one square diagonally in a forward direction. Pawns are unable to move backward on captures or moves. Upon reaching the other side of the board a pawn promotes into any other piece, except for a king. Additionally, pawns can make a special move named En Passant.",
-];
-let chosenPieceMove;
-
-for (let i = 0; i < 6; i++) {
-  if (chessPiece.toLowerCase() === arrayOfPieces[i]) {
-    chosenPieceMove = arrayOfMoves[i];
-  }
-}
-
-if (chosenPieceMove) {
-  alert(chosenPieceMove);
-} else if (!chosenPieceMove) {
-  alert(
-    `You wrote an invalid piece. Do not forget to write a singular name, not plural (e.g.: king, queen, bishop etc; dot not write bishops, knights, queens etc)`
-  );
-}
+let scoreLetter;
+const scoreTransform = function () {
+  if (scorePercentage >= 0 && scorePercentage < 50) scoreLetter = "F";
+  else if (scorePercentage >= 50 && scorePercentage < 60) scoreLetter = "E";
+  else if (scorePercentage >= 60 && scorePercentage < 70) scoreLetter = "D";
+  else if (scorePercentage >= 70 && scorePercentage < 80) scoreLetter = "C";
+  else if (scorePercentage >= 80 && scorePercentage < 90) scoreLetter = "B";
+  else if (scorePercentage >= 90 && scorePercentage < 100) scoreLetter = "A";
+  else scoreLetter = `You wrote an invalid score. Please try again.`;
+};
+scoreTransform();
+alert(scoreLetter);
