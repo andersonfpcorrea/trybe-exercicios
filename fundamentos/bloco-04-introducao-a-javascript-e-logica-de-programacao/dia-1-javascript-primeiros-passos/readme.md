@@ -46,20 +46,19 @@ Hoje, vamos aprender:
   of three internal angles of a triangle. Return true if the angles are from a triangle, if not
   return false. If any angle were invalid the program must return an error message.
 
-- SIXTH EXERCISE: Write a program that receive the name of a chess's piece and return
-  return the movements it is able to performance.
-  -- As a challenge, make the program work be not case sensitive, without creating additional
-  conditions.
-  -- If the input name is invalid, the program must return an error message.
-  -- Example: bishop -> diagonals
+- SIXTH EXERCISE: Write a program that receive the name of a chess's piece and return the movements it is able to performance.
 
-- SEVENTH EXERCISE: Create a program that convert a score (given in percentage from 0 to 100)
-  into scores from A to F. Follow these rules:
-  -- Percentage>=90 -> A
-  -- Percentage>=80 -> B
-  -- Percentage>=70 -> C
-  -- Percentage>=60 -> D
-  -- Percentage>=50 -> E
-  -- Percentage <50 -> F
-  -- The program must return an error mensage and close if the input score is less than 0 or
-  -- greater than 100.
+  - As a challenge, make the program work be not case sensitive, without creating additional
+    conditions.
+  - If the input name is invalid, the program must return an error message.
+  - Example: bishop -> diagonals
+
+- SEVENTH EXERCISE: Create a program that convert a score (given in percentage from 0 to 100) into scores from A to F. Follow these rules:
+  - Percentage>=90 -> A
+  - Percentage>=80 -> B
+  - Percentage>=70 -> C
+  - Percentage>=60 -> D
+  - Percentage>=50 -> E
+  - Percentage <50 -> F
+  - The program must return an error mensage and close if the input score is less than 0 or
+  - greater than 100.
