@@ -45,3 +45,10 @@ Hoje, vamos aprender:
 - FIFTH EXERCISE: Create a program that define three variables with the values
   of three internal angles of a triangle. Return true if the angles are from a triangle, if not
   return false. If any angle were invalid the program must return an error message.
+
+- SIXTH EXERCISE: Write a program that receive the name of a chess's piece and return
+  return the movements it is able to performance.
+  -- As a challenge, make the program work be not case sensitive, without creating additional
+  conditions.
+  -- If the input name is invalid, the program must return an error message.
+  -- Example: bishop -> diagonals
