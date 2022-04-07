@@ -65,4 +65,8 @@ Hoje, vamos aprender:
 
 - EIGTH EXERCISE: Create a program that define three numbers into const variables and
   return "true" if at least one out of the three is even, if this condition is
-  not fullfilled, then return "false".
+  not fullfilled, then return "false". Bonus: Use only one if statement.
+
+- NINETH EXERCISE: Create a program that define three numbers into const variables
+  and return true if at least one of them is odd, otherwise it returns false. Bonus: Use
+  only one if statement.

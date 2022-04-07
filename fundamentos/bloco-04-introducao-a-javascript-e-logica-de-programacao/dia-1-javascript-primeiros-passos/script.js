@@ -180,9 +180,13 @@ checkIfTriangle();
 // return "true" if at least one out of the three is even, if this condition is
 // not fullfilled, then return "false".
 
-// const firstInputNumber = prompt(`Write any number...`);
-// const secondInputNumber = prompt(`Write a second number...`);
-// const thirdInputNumber = prompt(`Write a last number...`);
+// const firstInputNumber = Number(
+//   prompt(
+//     `Write any number...if you write nothing, we will consider it as a zero :)`
+//   )
+// );
+// const secondInputNumber = Number(prompt(`Write a second number...`));
+// const thirdInputNumber = Number(prompt(`Write a last number...`));
 // const checkIfEven = function () {
 //   if (
 //     firstInputNumber % 2 === 0 ||
@@ -194,3 +198,25 @@ checkIfTriangle();
 // };
 // console.log(checkIfEven());
 // alert(checkIfEven());
+
+// NINETH EXERCISE: Create a program that define three numbers into const variables
+// and return true if at least one of them is odd, otherwise it returns false. Use
+// only one if statement.
+// const firstInputNumber = Number(
+//   prompt(
+//     `Write any number...if you write nothing, we will consider it as a zero :)`
+//   )
+// );
+// const secondInputNumber = Number(prompt(`Write a second number...`));
+// const thirdInputNumber = Number(prompt(`Write a last number...`));
+// const checkIfOdd = function () {
+//   if (
+//     firstInputNumber % 2 !== 0 ||
+//     secondInputNumber % 2 !== 0 ||
+//     thirdInputNumber % 2 !== 0
+//   )
+//     return true;
+//   else return false;
+// };
+// console.log(checkIfOdd());
+// alert(checkIfOdd());
