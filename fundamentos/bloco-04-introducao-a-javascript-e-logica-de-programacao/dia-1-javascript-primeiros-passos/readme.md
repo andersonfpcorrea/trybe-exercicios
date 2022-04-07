@@ -16,7 +16,7 @@
 
 ## Exercises of the day
 
-- FIRST EXERCISE: make five calculator, one for each basic arithmetic operation.
+- FIRST EXERCISE: make five calculators, one for each basic arithmetic operation.
   The program must accept the value of two const variables (a, b), which
   must be created before the calculators.
 
