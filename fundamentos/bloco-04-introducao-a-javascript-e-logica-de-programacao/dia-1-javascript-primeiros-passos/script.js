@@ -247,3 +247,52 @@ checkIfTriangle();
 // };
 // profitCalculator();
 // console.log(profit);
+
+// - ELEVENTH EXERCISE: A brazilian worker is debted from his gross sallary two tax (Social
+//   Security Tax and Income Tax). Create a program that, given any gross sallary, calculates the
+//   net sallary.
+//   - For the taxes use the following criteria:
+//     - Social Security Tax (according to the gross sallary):
+//       - Until R$ 1556.94 -> 8%
+//       - From R$ 1.556,95 to R$ 2.594,92 -> 9%
+//       - From R$ 2.594,93 to R$ 5.189,82 -> 11%
+//       - Above R$ 5.189,82 -> fixed value: R$ 570,88
+//     - Income Tax (according to the base-sallary (gross sallary minus the Social Security tax)):
+//       - Until R$ 1.903,98 -> no tax
+//       - From R$ 1.903,99 to 2.826,65 -> 7,5% and R$ 142,80 to be deducted from the tax
+//       - From R$ 2.826,66 to R$ 3.751,05 -> 15% and R$ 354,80 to be deducted from the tax
+//       - From R$ 3.751,06 to R$ 4.664,68 -> 22,5% and R$ 636,13 to be deducted from the tax
+//       - Above R$ 4.664,68 -> 27,5% and R$ 869,36 to be deducted from the tax
+// const grossSallary = Number(
+//   prompt(
+//     `Write down your gross sallary. Write only numbers and use dot(.) for decimals`
+//   )
+// );
+// let socialSecurityTax;
+// const socialSecurityTaxCalc = function () {
+//   if (grossSallary < 1556.95) socialSecurityTax = grossSallary * 0.08;
+//   else if (grossSallary >= 1556.95 && grossSallary < 2594.93)
+//     socialSecurityTax = grossSallary * 0.09;
+//   else if (grossSallary >= 2594.93 && grossSallary < 5189.82)
+//     socialSecurityTax = grossSallary * 0.11;
+//   else if (grossSallary >= 5189.82) socialSecurityTax = 570.88;
+// };
+// socialSecurityTaxCalc();
+// const baseSallary = grossSallary - socialSecurityTax;
+// let incomeTax;
+// const incomeTaxCalc = function () {
+//   if (baseSallary < 1903.99) incomeTax = 0;
+//   else if (baseSallary >= 1903.99 && baseSallary < 2826.66)
+//     incomeTax = baseSallary * 0.075 - 142.8;
+//   else if (baseSallary >= 2826.66 && baseSallary < 3751.06)
+//     incomeTax = baseSallary * 0.15 - 354.8;
+//   else if (baseSallary >= 3751.06 && baseSallary < 4664.68)
+//     incomeTax = baseSallary * 0.22 - 636.13;
+//   else if (baseSallary >= 4664.68) incomeTax = baseSallary * 0.275 - 869.36;
+// };
+// incomeTaxCalc();
+// const netSallary = `Your net sallary is ${
+//   baseSallary - incomeTax
+// }. The social security tax is ${socialSecurityTax}, your base-sallary is ${baseSallary} and
+// the income tax is ${incomeTax}.`;
+// console.log(netSallary);
