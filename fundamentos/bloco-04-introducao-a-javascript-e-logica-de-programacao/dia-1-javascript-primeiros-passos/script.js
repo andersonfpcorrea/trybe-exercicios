@@ -220,3 +220,30 @@ checkIfTriangle();
 // };
 // console.log(checkIfOdd());
 // alert(checkIfOdd());
+
+// - TENTH EXERCISE: First create two variables assigned to two numbers. The first value is the
+//   cost of a product and the second is the selling prince. Then, from these values, calculate
+//   the profit a company would have by selling 1000 of that product.
+//   - Include a tax of 20% upon the product's cost, so the total cost is "cost + cost*0.2"
+//   - Include in the program an error message, in case the input values are less than zero.
+// const cost = Number(
+//   prompt(
+//     `Write down the cost related to the manufacturing of the product. Please type only numbers.`
+//   )
+// );
+// const tax = Number(
+//   prompt(
+//     `Write down the paid tax related to the manufacturing of the product. Please type only numbers: for example, if you had 10% of tax, type 10.`
+//   )
+// );
+// const sellingPrice = Number(
+//   prompt(
+//     `Write down the selling price of the product. Please type only numbers.`
+//   )
+// );
+// let profit;
+// const profitCalculator = function () {
+//   profit = sellingPrice - (cost + cost * (tax / 100));
+// };
+// profitCalculator();
+// console.log(profit);

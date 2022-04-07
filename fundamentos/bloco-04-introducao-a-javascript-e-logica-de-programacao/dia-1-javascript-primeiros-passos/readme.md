@@ -70,3 +70,9 @@ Hoje, vamos aprender:
 - NINETH EXERCISE: Create a program that define three numbers into const variables
   and return true if at least one of them is odd, otherwise it returns false. Bonus: Use
   only one if statement.
+
+- TENTH EXERCISE: First create two variables assigned to two numbers. The first value is the
+  cost of a product and the second is the selling prince. Then, from these values, calculate
+  the profit a company would have by selling 1000 of that product.
+  - Include a tax of 20% upon the product's cost, so the total cost is "cost + cost x 0.2"
+  - Include in the program an error message, in case the input values are less than zero.
