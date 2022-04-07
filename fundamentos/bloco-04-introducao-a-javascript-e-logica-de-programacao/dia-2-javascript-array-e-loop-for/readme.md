@@ -1,9 +1,9 @@
-### Descrição do dia 2 do bloco 4
+### Description of day 2, block 4
 
-## Você será capaz de:
+## You will be capable of:
 
-- Manipular arrays (listas);
-- Utilizar o comando for ;
+- Manipulating `arrays`;
+- Use `for` ;
 
 # Exercises
 
