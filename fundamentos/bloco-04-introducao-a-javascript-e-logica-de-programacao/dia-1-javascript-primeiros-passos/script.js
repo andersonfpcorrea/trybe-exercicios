@@ -116,7 +116,7 @@ checkIfTriangle();
 
 // SIXTH EXERCISE: Write a program that receive the name of a chess's piece and return
 // return the movements it is able to performance.
-// - As a challenge, make the program work be not case sensitive, without creating additional
+// - As a challenge, make the program be not case sensitive for the input, without creating additional
 // conditions.
 // - If the input name is invalid, the program must return an error message.
 // - Example: bishop -> diagonals
@@ -248,7 +248,7 @@ checkIfTriangle();
 // profitCalculator();
 // console.log(profit);
 
-// - ELEVENTH EXERCISE: A brazilian worker is debted from his gross sallary two tax (Social
+// - ELEVENTH EXERCISE: A brazilian worker is debted from his gross sallary two taxes (Social
 //   Security Tax and Income Tax). Create a program that, given any gross sallary, calculates the
 //   net sallary.
 //   - For the taxes use the following criteria:
