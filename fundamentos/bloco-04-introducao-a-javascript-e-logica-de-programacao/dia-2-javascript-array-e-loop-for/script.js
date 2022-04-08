@@ -66,18 +66,18 @@ for (let divisionByTwo of newArray) {
 //  2. Check the greater number between the first and the second to last index position, and
 //     switch its position with the last index position;
 //  3. And so on until the first index position.
-// for (let i = 0; i < numbers.length; i += 1) {
-//   let greaterNumber = 0;
-//   for (let a = 0; a < numbers.length - i; a += 1) {
-//     if (greaterNumber < numbers[a]) greaterNumber = numbers[a];
-//   }
-//   [numbers[numbers.indexOf(greaterNumber)], numbers[numbers.length - (1 + i)]] =
-//     [
-//       numbers[numbers.length - (1 + i)],
-//       numbers[numbers.indexOf(greaterNumber)],
-//     ];
-// }
-// console.log(numbers);
+for (let i = 0; i < numbers.length; i += 1) {
+  let greaterNumber = 0;
+  for (let a = 0; a < numbers.length - i; a += 1) {
+    if (greaterNumber < numbers[a]) greaterNumber = numbers[a];
+  }
+  [numbers[numbers.indexOf(greaterNumber)], numbers[numbers.length - (1 + i)]] =
+    [
+      numbers[numbers.length - (1 + i)],
+      numbers[numbers.indexOf(greaterNumber)],
+    ];
+}
+console.log(numbers);
 
 // 2. Rearrange the elements of `numbers` in descending order and print to the console;
 // Answer:
