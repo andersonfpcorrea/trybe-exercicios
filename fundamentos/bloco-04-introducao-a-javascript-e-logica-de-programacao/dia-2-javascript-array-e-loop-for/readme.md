@@ -26,3 +26,14 @@ let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 7. Using `for`, find out the smaller value inside array and print it to the console;
 8. Using `for`, create an array whose values are from number 1 to number 25 and log to the console;
 9. Using the array created in the last exercise, log to the console the result of the division of each one of its elements by `2`.
+
+## Bonus exercise
+
+`let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];`
+
+1. Rearrange the elements of `numbers` in ascending order and print to the console;
+2. Rearrange the elements of `numbers` in descending order and print to the console;
+3. Make a new array out of `numbers`, without altering it. Each new value of the new array
+   must be equal to the correspondent (same index position) value on the array `numbers`
+   multiplied by the following value of `numbers` (index position + 1). If there is no more
+   following value to compare with, then multiply by 2.
