@@ -136,3 +136,11 @@ const checkGreatestPrime = function (firstNumber, secondNumber) {
 };
 
 console.log(checkGreatestPrime(0, 50));
+
+// ===========================================
+// ==============BONUS EXERCISES==============
+// ===========================================
+// 1.Create a program that, given a variable `n`, and being `n > 1`, print to the console a square
+//  made out of asterisks, whose sides are equal to `n`.
+// Answer:
+// 1. Given the value "n", print to the console "*"*5, and loop this 5 times.
