@@ -58,7 +58,7 @@ let leitor = {
 
 8. Access the keys `nome` and `livrosFavoritos` and make a `console.log` with descriptive string.
 
-## Part I - Functions
+## Part II - Functions
 
 1. Crie uma função que receba uma string e retorne true se for um palíndromo , ou false , se não for.
 
