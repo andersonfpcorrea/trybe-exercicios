@@ -53,10 +53,10 @@ printKeysValues(info, info2);
 // };
 // 6. Log to the console a string like that: " O livro favorito de Julia Pessoa
 // se chama 'O Pior Dia de Todos' "
-console.log(
-  `O livro favorito de ${leitor.nome} ${leitor.sobrenome} se 
-  chama '${leitor.livrosFavoritos[0].titulo}'`
-);
+// console.log(
+//   `O livro favorito de ${leitor.nome} ${leitor.sobrenome} se
+//   chama '${leitor.livrosFavoritos[0].titulo}'`
+// );
 // 7. Add the bellow array to the key "livrosFavoritos":
 // {
 //   titulo: 'Harry Potter e o Prisioneiro de Azkaban',
@@ -86,5 +86,125 @@ console.log(
 );
 
 // PART II - FUNCTIONS
-// 1 - Crie uma função que receba uma string e retorne true se for um palíndromo ,
-// ou false , se não for.
+console.log("========PART II========\n=======================");
+console.log("========Exercise 1========");
+// 1 - Create a function that receive a string as argument and return 'true' is the argument
+// is a palidrome, otherwise return false.
+
+const checkIfPalindrome = function () {
+  // 1. input the string:
+  const input = prompt(`Write any string to check if it is a palidrome:`);
+  // console.log(input);
+  // 2. lowercase the original string:
+  const inputLowerCase = input.toLowerCase();
+  // console.log(inputLowerCase);
+  // 3. Split the lower case string into an array:
+  const array = [...inputLowerCase];
+  // console.log(array);
+  // 4. Reverse the array:
+  const reverseArray = array.reverse("");
+  // console.log(reverseArray);
+  // 5. Join into a new string the reversed array:
+  const reverseLowerCase = reverseArray.join("");
+  // console.log(reverseLowerCase);
+  // 6. compare original string with the reversed and output the answer:
+  if (reverseLowerCase === inputLowerCase) {
+    // console.log(`"${input}" is a palidrome`);
+    return true;
+  } // console.log(`"${input}" is NOT a palidrome`);
+  else return false;
+};
+// console.log(checkIfPalindrome());
+
+console.log("========Exercise 2========");
+// 2. Create a function that receive an array of integers and return the index fo the
+// biggest value.
+const testArray = [2, 3, 6, 7, 10, 1];
+const biggestValue = function (array) {
+  let biggerNumber = 0;
+  for (let key in array) {
+    if (biggerNumber < array[key]) biggerNumber = array[key];
+  }
+  console.log(testArray.indexOf(biggerNumber));
+};
+biggestValue(testArray);
+
+console.log("========Exercise 3========");
+// 3. Create a function that receive an array of integers and return the index fo the
+// smallest value.
+const testArray2 = [2, 4, 6, 7, 10, 0, -3];
+const smallestValue = function (array) {
+  let smallestNumber = array[0];
+  for (let key in array) {
+    if (smallestNumber > array[key]) smallestNumber = array[key];
+  }
+  console.log(testArray2.indexOf(smallestNumber));
+};
+smallestValue(testArray2);
+
+console.log("========Exercise 4========");
+// 4. Create a function that receive an array of strings and return the biggest string.
+const testArray4 = ["José", "Lucas", "Nádia", "Fernanda", "Cairo", "Joana"];
+const biggestString = function (arrayOfStrings) {
+  let biggestString = "";
+  for (let key in arrayOfStrings) {
+    if (biggestString.length < arrayOfStrings[key].length)
+      biggestString = arrayOfStrings[key];
+  }
+  console.log(biggestString);
+};
+biggestString(testArray4);
+
+console.log("========Exercise 5========");
+console.log("BRONKEN - FIX THIS");
+// 5. Create a function that receive an array of integers and return the integer that is
+// most repeated.
+const testArray5 = [2, 3, 2, 5, 8, 2, 3];
+// 1. Create a function that counts how may times the numbers are repeated:
+const mostRepeatedNumber = function (array) {
+  // 1.1 Object to save the couting
+  const counterArray = [];
+  // 1.2 In each iteration, one value is compared with all other and then the
+  // result is stored into an array, inside "counterArray"
+  for (let key = 0; key < array.length; key += 1) {
+    let counter = 0;
+    for (let i = 0; i < array.length; i += 1) {
+      if (array[key] === array[i]) counter += 1;
+      // console.log("Counter:" + counter);
+      // console.log("Array[key]:" + array[key]);
+      // console.log("Array[i]:" + array[i]);
+      // console.log(`==========end of iteration ${key}.${i}.`);
+    }
+    counterArray.push([array[key], counter]);
+    // console.log(counterArray);
+    // console.log(`**********End of iteration ${key}**********`);
+  }
+  // 2. Loop to extract the index[0] of "counterArray":
+  const resultsArray = [];
+  for (i = 0; i < counterArray.length; i += 1) {
+    resultsArray.push(counterArray[i][0]);
+  }
+  // 3. Sorting in ascending order the "resultsArray"
+  resultsArray.sort((a, b) => a - b);
+  // 4. Checking the most repeted number inside "resultsArray"
+  let totalCounter = 0;
+  let mostRepeatedNumber = [];
+  for (i = 0; i < resultsArray.length; i += 1) {
+    let parcialCounter = 0;
+    for (j = 0; j < resultsArray.length; j += 1) {
+      if (resultsArray[i] === resultsArray[j]) parcialCounter += 1;
+    }
+    // 4.1
+    if (parcialCounter >= totalCounter) {
+      totalCounter = parcialCounter;
+      mostRepeatedNumber.push(resultsArray[i]);
+    }
+  }
+  console.log("======FINAL RESULT======");
+  console.log("The most repeated number is:...");
+  console.log(...new Set(mostRepeatedNumber));
+  console.log(`Repeated for: ${totalCounter} times`);
+  console.log("========THE END========");
+};
+
+mostRepeatedNumber(testArray5);
