@@ -55,24 +55,46 @@
       Crie uma função que modifique todo o texto da tag <p> para maiúsculo.
       Crie uma função que exiba o conteúdo de todas as tags <p> no console.
              */
-      document.getElementsByTagName("p")[1].textContent =
-        "Full-Stack Dev com grana";
-      document.getElementsByClassName("main-content")[0].style.backgroundColor =
-        "rgb(76,164,109)";
-      document.getElementsByClassName(
-        "center-content"
-      )[0].style.backgroundColor = "#fff";
-      document.getElementsByClassName("title")[0].textContent =
-        "Exercício 5.1 - JavaScript";
-      const tagP = document.getElementsByTagName("p");
-      for (let i = 0; i < tagP.length; i += 1) {
-        tagP[i].style.textTransform = "uppercase";
+      function description() {
+        document.getElementsByTagName("p")[1].textContent =
+          "Full-Stack Dev com grana";
       }
-      const showTagP = function () {
+      description();
+
+      function changeColorMain() {
+        document.getElementsByClassName(
+          "main-content"
+        )[0].style.backgroundColor = "rgb(76,164,109)";
+      }
+      changeColorMain();
+
+      function changeColorCenter() {
+        document.getElementsByClassName(
+          "center-content"
+        )[0].style.backgroundColor = "#fff";
+      }
+      changeColorCenter();
+
+      function changeH1() {
+        document.getElementsByClassName("title")[0].textContent =
+          "Exercício 5.1 - JavaScript";
+      }
+      changeH1();
+
+      const tagP = document.getElementsByTagName("p");
+
+      function uppercaseTagP() {
         for (let i = 0; i < tagP.length; i += 1) {
-          console.log(tagP[i].textContent);
+          tagP[i].style.textTransform = "uppercase";
         }
-      };
+      }
+      uppercaseTagP();
+
+      function showTagP() {
+        for (let i = 0; i < tagP.length; i += 1) {
+          console.log(tagP[i].innerHTML);
+        }
+      }
       showTagP();
     </script>
   </body>
