@@ -1,3 +1,4 @@
+// ========================================
 // Exercícios da PARTE I do conteúdo
 console.log("1.");
 console.log(document.querySelector("#elementoOndeVoceEsta"));
@@ -27,3 +28,18 @@ console.log(document.querySelector("#elementoOndeVoceEsta").nextElementSibling);
 
 console.log("8."); //Agora acesse o terceiroFilho a partir de pai .
 console.log(document.querySelector("#pai").children[2]);
+
+// Exercícios da PARTE II do conteúdo
+// 1.Crie um irmão para elementoOndeVoceEsta .
+const section = document.createElement("section");
+document.querySelector("#pai").appendChild(section);
+// 2.Crie um filho para elementoOndeVoceEsta .
+document.querySelector("#elementoOndeVoceEsta").appendChild(section);
+// 3.Crie um filho para primeiroFilhoDoFilho .
+document.querySelector("#primeiroFilhoDoFilho").appendChild(section);
+// 4.A partir desse filho criado, acesse terceiroFilho .
+console.log("4. PARTE II");
+console.log(
+  document.querySelector("#primeiroFilhoDoFilho section").parentElement
+    .parentElement.nextElementSibling
+);
