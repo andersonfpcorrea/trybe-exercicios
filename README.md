@@ -1,6 +1,6 @@
 # Trybe
 
-Este repositório contém todas as atividades de aprendizagem desenvolvidas por _[Anderson Corrêa](https://www.linkedin.com/in/anderson-corr%C3%AAa-41829bbb/)_ enquanto estuda na [Trybe](https://www.betrybe.com/) :rocket:
+Este repositório contém todas as atividades de aprendizagem desenvolvidas por _[Anderson Corrêa](https://www.linkedin.com/in/anderson-corr%C3%AAa-41829bbb/)_ enquanto estuda na _[Trybe](https://www.betrybe.com/)_ :rocket:
 
 _"A Trybe é uma escola do futuro para qualquer pessoa que queira melhorar de vida e construir uma carreira de sucesso em tecnologia, onde a pessoa só paga quando conseguir um bom trabalho."_
 
@@ -29,16 +29,16 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Bloco 4: Introdução - JavaScript e Lógica de Programação
 
-- [ ] 4-1: _JavaScript - Primeiros passos_
-- [ ] 4-2: _JavaScript - Array e loop For_
-- [ ] 4-3: _JavaScript - Lógica de Programação e Algoritmos_
-- [ ] 4-4: _JavaScript - Objetos e funções_
-- [ ] 4-5: _[Projeto - Playground Functions]()_
+- [ :heavy_check_mark: ] 4-1: _JavaScript - Primeiros passos_
+- [ :heavy_check_mark: ] 4-2: _JavaScript - Array e loop For_
+- [ :heavy_check_mark: ] 4-3: _JavaScript - Lógica de Programação e Algoritmos_
+- [ :heavy_check_mark: ] 4-4: _JavaScript - Objetos e funções_
+- [ :heavy_check_mark: ] 4-5: _[Projeto - Playground Functions](https://github.com/andersonfpcorrea/andersonfpcorrea.github.io/tree/master/projects/playground-functions)_
 
 ##### Bloco 5: JavaScript: DOM, Eventos e Web Storage
 
-- [ ] 5-1: _JavaScript - DOM e seletores_
-- [ ] 5-2: _JavaScript - Trabalhando com elementos_
+- [ :heavy_check_mark: ] 5-1: _JavaScript - DOM e seletores_
+- [ :heavy_check_mark: ] 5-2: _JavaScript - Trabalhando com elementos_
 - [ ] 5-3: _JavaScript - Eventos_
 - [ ] 5-4: _JavaScript - Web Storage_
 - [ ] 5-5: _[Projeto - Arte com Pixels]()_
