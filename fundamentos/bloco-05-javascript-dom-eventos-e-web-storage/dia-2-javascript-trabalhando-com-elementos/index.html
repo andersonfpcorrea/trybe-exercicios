@@ -1,4 +1,100 @@
 <!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Exercício 5.2</title>
+    <style>
+      section {
+        border-color: black;
+        border-style: solid;
+      }
+
+      .title {
+        text-align: center;
+      }
+
+      .main-content {
+        background-color: yellow;
+      }
+
+      .main-content .center-content {
+        background-color: red;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .main-content .center-content p {
+        font-style: italic;
+      }
+
+      .main-content .left-content {
+        background-color: green;
+        width: 60%;
+        margin-left: 0;
+        margin-right: auto;
+      }
+
+      .main-content .left-content .small-image {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 100%;
+      }
+
+      .main-content .right-content {
+        background-color: blue;
+        width: 60%;
+        margin-left: auto;
+        margin-right: 0;
+      }
+
+      .main-content .description {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <script>
+      // 1. Add a h1 tag as child element of `body`. Add the text 'Exercício 5.2 - JavaScript DOM'.
+      const h1 = document.createElement("h1");
+      document.querySelector("body").appendChild(h1).textContent =
+        "Exercício 5.2 - JavaScript DOM";
+      // 2. Add a `<main>`, with the class `main-content`, as child element of `<body>`
+      const main = document.createElement("main");
+      document.querySelector("body").appendChild(main).className =
+        "main-content";
+
+      // ====================checar a partir daqui======================
+      // 3. Add a `<section>`, with the class `center-content`, as child element of the created `<main>`
+      const section = document.createElement("section");
+      document.querySelector(".main-content").appendChild(section).className =
+        "center-content";
+      // 4. Add `<p>` as child element of the created section, insert some text content
+      const p = document.createElement("p");
+      document.querySelector("section").appendChild(h1).textContent =
+        "This is a paragraph";
+      // 5. Add a `<sectio>`, with a class `left-content`, as  child el. of the `<main>
+      document.querySelector("main").appendChild(section).className =
+        "left-content";
+      // 6. Add a `<sectio>`, with a class `right-content`, as  child el. of the `<main>
+      document.querySelector("main").appendChild(section).className =
+        "right-content";
+      // 7. Add an image with src=https://picsum.photos/200 and class=small-image, beign
+      // child element of step 5 section.
+      const img = document.createElement("img");
+      document.querySelector(".left-content").appendChild(img).className =
+        "small-image";
+      // 8. Add a ol with the numbers from 'one' to 'ten' as list item. This must be child
+      // element of the step 6 section.
+      // 9. Add 3 `h3`, being all child elements of `<main>`.
+    </script>
+  </body>
+</html>
+
+<!-- HTML para os exercícios dos conteúdos -->
+<!-- <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -21,4 +117,4 @@
     </main>
     <script src="script.js"></script>
   </body>
-</html>
+</html> -->
