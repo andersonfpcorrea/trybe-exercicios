@@ -43,3 +43,19 @@ console.log(
   document.querySelector("#primeiroFilhoDoFilho section").parentElement
     .parentElement.nextElementSibling
 );
+
+// PARTE III -exercícios
+// Remova todos os elementos filhos de paiDoPai exceto pai ,
+// elementoOndeVoceEsta e primeiroFilhoDoFilho .
+document
+  .querySelector("#pai")
+  .removeChild(document.querySelector("#primeiroFilho"));
+document
+  .querySelector("#pai")
+  .removeChild(document.querySelector("#terceiroFilho"));
+document
+  .querySelector("#pai")
+  .removeChild(document.querySelector("#quartoEUltimoFilho"));
+document
+  .querySelector("#elementoOndeVoceEsta")
+  .removeChild(document.querySelector("#segundoEUltimoFilhoDoFilho"));
