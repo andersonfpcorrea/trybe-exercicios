@@ -65,30 +65,78 @@
       const main = document.createElement("main");
       document.querySelector("body").appendChild(main).className =
         "main-content";
-
-      // ====================checar a partir daqui======================
       // 3. Add a `<section>`, with the class `center-content`, as child element of the created `<main>`
-      const section = document.createElement("section");
-      document.querySelector(".main-content").appendChild(section).className =
-        "center-content";
+      const sectionCenter = document.createElement("section");
+      document
+        .querySelector(".main-content")
+        .appendChild(sectionCenter).className = "center-content";
       // 4. Add `<p>` as child element of the created section, insert some text content
       const p = document.createElement("p");
-      document.querySelector("section").appendChild(h1).textContent =
+      document.querySelector(".center-content").appendChild(p).textContent =
         "This is a paragraph";
-      // 5. Add a `<sectio>`, with a class `left-content`, as  child el. of the `<main>
-      document.querySelector("main").appendChild(section).className =
-        "left-content";
-      // 6. Add a `<sectio>`, with a class `right-content`, as  child el. of the `<main>
-      document.querySelector("main").appendChild(section).className =
-        "right-content";
+      // 5. Add a `<section>`, with a class `left-content`, as  child el. of the `<main>
+      const sectionLeft = document.createElement("section");
+      document
+        .querySelector(".main-content")
+        .appendChild(sectionLeft).className = "left-content";
+      // 6. Add a `<section>`, with a class `right-content`, as  child el. of the `<main>
+      const sectionRight = document.createElement("section");
+      document
+        .querySelector(".main-content")
+        .appendChild(sectionRight).className = "right-content";
       // 7. Add an image with src=https://picsum.photos/200 and class=small-image, beign
       // child element of step 5 section.
       const img = document.createElement("img");
       document.querySelector(".left-content").appendChild(img).className =
         "small-image";
+      document.querySelector(".left-content img").className = "small-image";
+      document.querySelector(".left-content").appendChild(img).src =
+        "https://picsum.photos/200";
       // 8. Add a ol with the numbers from 'one' to 'ten' as list item. This must be child
       // element of the step 6 section.
+      const ol = document.createElement("ol");
+      document.querySelector(".right-content").appendChild(ol);
+      for (i = 1; i < 11; i += 1) {
+        document
+          .querySelector(".right-content ol")
+          .appendChild(document.createElement("li")).textContent = `${i}`;
+      }
       // 9. Add 3 `h3`, being all child elements of `<main>`.
+      for (i = 1; i < 4; i += 1) {
+        document
+          .querySelector(".main-content")
+          .appendChild(
+            document.createElement("h3")
+          ).textContent = `Esta é a h3 número ${i}`;
+      }
+
+      // Exercises II
+      // a) Add the class 'title' to the h1
+      document.querySelector("body").appendChild(h1).className = "title";
+      // b) Add the class 'description' to the h3
+      for (
+        i = 0;
+        i < document.querySelectorAll(".main-content h3").length;
+        i += 1
+      ) {
+        document.querySelectorAll(".main-content h3")[
+          i
+        ].className = `description`;
+      }
+      // c) Remove the section with the 'left-content' class
+      document
+        .querySelector(".main-content")
+        .removeChild(document.querySelector(".left-content"));
+      // d) Center the 'right-section' class section
+      document.querySelector(".right-content").style.marginRight = "auto";
+      // e) Alter the background color of the parent element of the section "center-content" to green
+      document.querySelector(
+        ".center-content"
+      ).parentElement.style.backgroundColor = "green";
+      // f) Remove the last two elements (li) from the ol
+      for (i = document.querySelectorAll("li").length - 1; i > 7; i -= 1) {
+        document.querySelectorAll("li")[i].remove();
+      }
     </script>
   </body>
 </html>
