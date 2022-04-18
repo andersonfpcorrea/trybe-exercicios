@@ -54,3 +54,17 @@ function createDaysOfTheMonth() {
   }
 }
 createDaysOfTheMonth();
+
+// Exercise 2
+// Implement a function that receive as argument the string `Feriados` and generate dinamically a
+// button with the name "Feriados".
+
+// - Add to this button the ID 'btn-holiday';
+// - Add this button as child element of the `<div>` whose class is 'buttons-container'.
+function holidayBtns(Feriados) {
+  const btn = document.createElement("button");
+  document.querySelector(".buttons-container").appendChild(btn).id =
+    "btn-holiday";
+  document.querySelector("#btn-holiday").innerText = `${Feriados}`;
+}
+holidayBtns("Feriados");
