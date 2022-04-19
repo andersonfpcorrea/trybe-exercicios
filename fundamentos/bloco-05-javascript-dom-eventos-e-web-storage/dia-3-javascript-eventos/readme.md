@@ -76,3 +76,12 @@ Implement a function that add a click event to the calendar's days, which functi
 clicked day the color of the selected task legend.
 
 - By clicking again on the same day, the original condition must be restored.
+
+### Bonus exercise
+
+Add schedules to your calendar. Implement a function that, upon typing a schedule on the tab
+'COMPROMISSOS', add this item to the list 'MEUS COMPROMISSOS' by clicking on the button 'ADICIONAR'.
+
+- If no character was inserted into the input field, the function must return an `alert` with
+  an error message when the 'ADICIONAR' button is pressed.
+  - By pressig the `Enter` key the handler function must be triggered too.

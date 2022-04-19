@@ -188,19 +188,18 @@ task.addEventListener("click", function () {
 // Implement a function that add a click event to the calendar's days, which function assign to the
 // clicked day the color of the selected task legend.
 // - By clicking again on the same day, the original condition must be restored.
-// console.log(days[0].style);
-// for (i = 0; i < days.length; i += 1) {
-//   days[i].addEventListener("click", function () {
-//     days[i].style.color = `${task.style.backgroundColor}`;
-//   });
-// }
-const day = document.querySelector(".day");
-day.addEventListener("click", function () {
-  // for (i = 0; i < days.length; i += 1) {
-  // console.log(days[i].style.color === "green");
-  if (!(day.style.color === "green")) {
-    day.style.color = "green";
-  } else if (day.style.color === "green") {
-    day.style.color = "grey";
-  }
-});
+for (let i = 0; i < days.length; i += 1) {
+  days[i].classList.add("TESTE");
+  days[i].addEventListener("click", function (eventOrigin) {
+    if (eventOrigin.target.style.color !== "green") {
+      eventOrigin.target.style.color = "green";
+    } else if (eventOrigin.target.style.color === "green") eventOrigin.target.style.color = "grey";
+  });
+}
+
+// Bonus exercise
+// Add schedules to your calendar. Implement a function that, upon typing a schedule on the tab
+// 'COMPROMISSOS', add this item to the list 'MEUS COMPROMISSOS' by clicking on the button 'ADICIONAR'.
+// - If no character was inserted into the input field, the function must return an `alert` with
+//   an error message when the 'ADICIONAR' button is pressed.
+//   - By pressig the `Enter` key the handler function must be triggered too.
