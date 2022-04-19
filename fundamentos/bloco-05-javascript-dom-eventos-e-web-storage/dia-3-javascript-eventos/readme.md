@@ -63,3 +63,16 @@ with the class `task`.
 
 - The parameter 'color' must be used as background color of the created `<div>`;
 - The created element must be append as child element of the `<div>` whose class is 'my-tasks'.
+
+### Exercise 9
+
+Implement a function that add a click event to the legend created on the last exercise. Upon cliking on the legend div, the function must add to it the class `task selected`.
+
+- By clicking again on the div, the task must be deselected (the class must be removed);
+
+### Exercise 10
+
+Implement a function that add a click event to the calendar's days, which function assign to the
+clicked day the color of the selected task legend.
+
+- By clicking again on the same day, the original condition must be restored.

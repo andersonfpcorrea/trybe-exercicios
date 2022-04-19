@@ -136,8 +136,8 @@ btnFriday.addEventListener("click", function () {
 // the text must be scaled up and when passing away the mouse pointer from the
 // text it must return to its original size.
 
+const days = document.querySelectorAll(".day");
 function hoverDays() {
-  const days = document.querySelectorAll(".day");
   for (i = 0; i < days.length; i += 1) {
     let style = document.createElement("style");
     style.appendChild(
@@ -173,3 +173,34 @@ function addLegendToTask(color) {
     .appendChild(colorLegend).style.backgroundColor = `${color}`;
 }
 addLegendToTask("green");
+
+// Exercise 9
+// Implement a function that add a click event to the legend created on the last exercise.
+// Upon cliking on the legend div, the function must add to it the class `task selected`.
+// - By clicking again on the div, the task must be deselected (the class must be removed);
+const task = document.querySelector(".my-tasks div");
+task.classList.add("task");
+task.addEventListener("click", function () {
+  task.classList.toggle("selected");
+});
+
+// Exercise 10 --->> CONTINUAR DO EXERCÍCIO 10
+// Implement a function that add a click event to the calendar's days, which function assign to the
+// clicked day the color of the selected task legend.
+// - By clicking again on the same day, the original condition must be restored.
+// console.log(days[0].style);
+// for (i = 0; i < days.length; i += 1) {
+//   days[i].addEventListener("click", function () {
+//     days[i].style.color = `${task.style.backgroundColor}`;
+//   });
+// }
+const day = document.querySelector(".day");
+day.addEventListener("click", function () {
+  // for (i = 0; i < days.length; i += 1) {
+  // console.log(days[i].style.color === "green");
+  if (!(day.style.color === "green")) {
+    day.style.color = "green";
+  } else if (day.style.color === "green") {
+    day.style.color = "grey";
+  }
+});
