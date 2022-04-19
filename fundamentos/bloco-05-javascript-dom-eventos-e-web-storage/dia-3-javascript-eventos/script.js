@@ -91,3 +91,16 @@ btnHoliday.addEventListener("click", function () {
     }
   }
 });
+
+// Exercise 4
+// Implement a function that receive as argument the string `Sexta-feira` and generate
+// dinamically a button with the name 'Sexta-feira'.
+// - Add to this button the ID 'btn-friday';
+// - Add this button as child element of the `<div>` whose class is 'buttons-container'.
+function fridayBtnGen(SextaFeira) {
+  const btn = document.createElement("button");
+  document.querySelector(".buttons-container").appendChild(btn).id =
+    "btn-friday";
+  document.querySelector("#btn-friday").innerText = `${SextaFeira}`;
+}
+fridayBtnGen("Sexta-feira");

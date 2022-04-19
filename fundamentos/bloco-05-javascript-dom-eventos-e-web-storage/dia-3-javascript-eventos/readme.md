@@ -28,3 +28,10 @@ background color of the days containing the 'holiday' class.
 
 - This button should have the reverse logic: upon being clicked again, the initial
   condition is restored.
+
+### Exercise 4
+
+Implement a function that receive as argument the string `Sexta-feira` and generate dinamically a button with the name 'Sexta-feira'.
+
+- Add to this button the ID 'btn-friday';
+- Add this button as child element of the `<div>` whose class is 'buttons-container'.
