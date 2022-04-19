@@ -158,3 +158,18 @@ function addTask(task) {
   document.querySelector(".my-tasks").appendChild(span).textContent = `${task}`;
 }
 addTask("cook");
+
+// Exercise 8
+// Implement a function that add a color legend to the task created on the last exercise.
+// This function must receive as parameter a string ('color') and create dinamically a `<div>`
+// with the class `task`.
+
+// - The parameter 'color' must be used as background color of the created `<div>`;
+// - The created element must be append as child element of the `<div>` whose class is 'my-tasks'.
+function addLegendToTask(color) {
+  const colorLegend = document.createElement("div");
+  document
+    .querySelector(".my-tasks")
+    .appendChild(colorLegend).style.backgroundColor = `${color}`;
+}
+addLegendToTask("green");

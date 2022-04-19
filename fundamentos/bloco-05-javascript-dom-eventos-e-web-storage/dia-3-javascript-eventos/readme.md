@@ -54,3 +54,12 @@ Implement a function that add a personalized task to the calendar. The function 
 argument a string with the task name (e.g.: cook) and create a `<span>` containing the task.
 
 - The created element must be a child element of the `<div` whose class is 'my-tasks'.
+
+### Exercise 8
+
+Implement a function that add caption with color to the task created on the last exercise.
+This function must receive as parameter a string ('color') and create dinamically a `<div>`
+with the class `task`.
+
+- The parameter 'color' must be used as background color of the created `<div>`;
+- The created element must be append as child element of the `<div>` whose class is 'my-tasks'.
