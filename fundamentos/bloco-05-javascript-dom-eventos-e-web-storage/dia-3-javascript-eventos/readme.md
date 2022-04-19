@@ -47,3 +47,10 @@ the text content of the fridays.
 
 Implement two functions the create a 'zoom' effect. Upon hovering on any day, the text must be
 scaled up and when passing away the mouse pointer from the text it must return to its original size.
+
+### Exercise 7
+
+Implement a function that add a personalized task to the calendar. The function must receive as
+argument a string with the task name (e.g.: cook) and create a `<span>` containing the task.
+
+- The created element must be a child element of the `<div` whose class is 'my-tasks'.

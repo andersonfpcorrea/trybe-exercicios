@@ -150,3 +150,11 @@ function hoverDays() {
 hoverDays();
 
 // Exercise 7
+// Implement a function that add a personalized task to the calendar. The function must receive as
+// argument a string with the task name (e.g.: cook) and create a `<span>` containing the task.
+// - The created element must be a child element of the `<div` whose class is 'my-tasks'.
+function addTask(task) {
+  const span = document.createElement("span");
+  document.querySelector(".my-tasks").appendChild(span).textContent = `${task}`;
+}
+addTask("cook");
