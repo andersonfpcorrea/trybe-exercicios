@@ -68,3 +68,26 @@ function holidayBtns(Feriados) {
   document.querySelector("#btn-holiday").innerText = `${Feriados}`;
 }
 holidayBtns("Feriados");
+
+// Exercise 3
+// Implement a function that add to the 'Feriados' button a click event that alter the
+// background color of the days containing the 'holiday' class.
+
+// - This button should have the reverse logic: upon being clicked again, the initial
+//   condition is restored.
+const btnHoliday = document.querySelector("#btn-holiday");
+const holidays = document.querySelectorAll(".holiday");
+btnHoliday.addEventListener("click", function () {
+  if (!(holidays[0].style.backgroundColor === "green")) {
+    for (i = 0; i < holidays.length; i += 1) {
+      holidays[i].style.backgroundColor = "green";
+      holidays[i].style.color = "white";
+      holidays[i].style.transition = "all 0.3s";
+    }
+  } else if (holidays[0].style.backgroundColor === "green") {
+    for (i = 0; i < holidays.length; i += 1) {
+      holidays[i].style.backgroundColor = "#eee";
+      holidays[i].style.color = "#777";
+    }
+  }
+});

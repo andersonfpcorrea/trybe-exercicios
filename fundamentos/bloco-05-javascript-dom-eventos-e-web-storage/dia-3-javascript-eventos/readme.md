@@ -1,6 +1,6 @@
 ## You will be able of:
 
-- changing the content, style and other atributes of HTML elements from JS events;
+- changing the content, style and other atributes of HTML elements by JS events;
 - using events, like `click` and `change`, in your JS code.
 
 # Exercises
@@ -20,3 +20,11 @@ button with the name "Feriados".
 
 - Add to this button the ID 'btn-holiday';
 - Add this button as child element of the `<div>` with the class 'buttons-container'.
+
+### Exercise 3
+
+Implement a function that add to the 'Feriados' button a click event that alter the
+background color of the days containing the 'holiday' class.
+
+- This button should have the reverse logic: upon being clicked again, the initial
+  condition is restored.
