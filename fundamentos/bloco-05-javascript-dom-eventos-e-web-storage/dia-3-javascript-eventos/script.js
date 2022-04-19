@@ -83,11 +83,13 @@ btnHoliday.addEventListener("click", function () {
       holidays[i].style.backgroundColor = "green";
       holidays[i].style.color = "white";
       holidays[i].style.transition = "all 0.3s";
+      holidays[i].style.fontWeight = "600";
     }
   } else if (holidays[0].style.backgroundColor === "green") {
     for (i = 0; i < holidays.length; i += 1) {
       holidays[i].style.backgroundColor = "#eee";
       holidays[i].style.color = "#777";
+      holidays[i].style.fontWeight = "400";
     }
   }
 });
@@ -104,3 +106,27 @@ function fridayBtnGen(SextaFeira) {
   document.querySelector("#btn-friday").innerText = `${SextaFeira}`;
 }
 fridayBtnGen("Sexta-feira");
+
+// Exercise 5
+// Implement a function that add to the button 'Sexta-feira' a click event that mutate
+// the text content of the fridays.
+// - The button should have the reverse logic implemented.
+const btnFriday = document.querySelector("#btn-friday");
+const fridays = document.querySelectorAll(".friday");
+btnFriday.addEventListener("click", function () {
+  if (!(fridays[0].style.backgroundColor === "green")) {
+    for (i = 0; i < fridays.length; i += 1) {
+      fridays[i].style.backgroundColor = "green";
+      fridays[i].style.color = "white";
+      fridays[i].style.transition = "all 0.3s";
+      fridays[i].style.fontWeight = "600";
+    }
+  } else if (fridays[0].style.backgroundColor === "green") {
+    for (i = 0; i < fridays.length; i += 1) {
+      fridays[i].style.backgroundColor = "#eee";
+      fridays[i].style.color = "#777";
+      fridays[i].style.textTransform = "uppercase";
+      fridays[i].style.fontWeight = "400";
+    }
+  }
+});

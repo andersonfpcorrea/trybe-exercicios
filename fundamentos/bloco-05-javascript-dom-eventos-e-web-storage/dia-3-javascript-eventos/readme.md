@@ -35,3 +35,10 @@ Implement a function that receive as argument the string `Sexta-feira` and gener
 
 - Add to this button the ID 'btn-friday';
 - Add this button as child element of the `<div>` whose class is 'buttons-container'.
+
+### Exercise 5
+
+Implement a function that add to the button 'Sexta-feira' a click event that mutate
+the text content of the fridays.
+
+- The button should have the reverse logic implemented.
