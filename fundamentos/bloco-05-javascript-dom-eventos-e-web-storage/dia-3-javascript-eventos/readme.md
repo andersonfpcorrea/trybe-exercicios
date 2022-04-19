@@ -42,3 +42,8 @@ Implement a function that add to the button 'Sexta-feira' a click event that mut
 the text content of the fridays.
 
 - The button should have the reverse logic implemented.
+
+### Exercise 6
+
+Implement two functions the create a 'zoom' effect. Upon hovering on any day, the text must be
+scaled up and when passing away the mouse pointer from the text it must return to its original size.

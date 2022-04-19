@@ -130,3 +130,23 @@ btnFriday.addEventListener("click", function () {
     }
   }
 });
+
+// Exercise 6
+// Implement two functions the create a 'zoom' effect. Upon hovering on any day,
+// the text must be scaled up and when passing away the mouse pointer from the
+// text it must return to its original size.
+
+function hoverDays() {
+  const days = document.querySelectorAll(".day");
+  for (i = 0; i < days.length; i += 1) {
+    let style = document.createElement("style");
+    style.appendChild(
+      document.createTextNode(".day:hover {transform: scale(1.1);}")
+    );
+    days[i].appendChild(style);
+    days[i].style.transition = "all 0.2s";
+  }
+}
+hoverDays();
+
+// Exercise 7
