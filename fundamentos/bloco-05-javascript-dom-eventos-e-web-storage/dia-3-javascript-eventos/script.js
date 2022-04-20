@@ -203,3 +203,23 @@ for (let i = 0; i < days.length; i += 1) {
 // - If no character was inserted into the input field, the function must return an `alert` with
 //   an error message when the 'ADICIONAR' button is pressed.
 //   - By pressig the `Enter` key the handler function must be triggered too.
+const createSchedule = function () {
+  const input = document.getElementById("task-input").value;
+  let schedule = document.createElement("li");
+  schedule.textContent = input;
+  if (input.trim().length > 0) {
+    document.querySelector(".task-list").appendChild(schedule);
+  } else if (input.trim().length === 0) {
+    alert("Escreva uma tarefa a ser adicionada.");
+  }
+};
+
+// Event listener on the "Adicionar" button
+document.getElementById("btn-add").addEventListener("click", createSchedule);
+
+// Event listener on the "Enter" key
+document
+  .getElementById("task-input")
+  .addEventListener("keyup", function (keyEvent) {
+    if (keyEvent.key === "Enter") createSchedule();
+  });
