@@ -10,41 +10,43 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Bloco 1: Introdução - Unix & Shell
 
-- [ :heavy_check_mark: ] 1-3: _Unix & Shell- Part 1_
-- [ :heavy_check_mark: ] 1-4: _Unix & Shell- Part 2_
+[ :heavy_check_mark: ] 1-3: _Unix & Shell- Part 1_
+[ :heavy_check_mark: ] 1-4: _Unix & Shell- Part 2_
 
 ##### Bloco 2: Git & GitHub
 
-- [ :heavy_check_mark: ] 2-1: _O que é e para que serve?_
-- [ :heavy_check_mark: ] 2-2: _Entendendo os comandos_
-- [ :heavy_check_mark: ] 2-3: _Internet - Entendendo como ela funciona_
+[ :heavy_check_mark: ] 2-1: _O que é e para que serve?_
+[ :heavy_check_mark: ] 2-2: _Entendendo os comandos_
+[ :heavy_check_mark: ] 2-3: _Internet - Entendendo como ela funciona_
 
 ##### Bloco 3: Introdução - HTML & CSS
 
-- [ :heavy_check_mark: ] 3-1: _HTML & CSS - Estruturas de página_
-- [ :heavy_check_mark: ] 3-2: _HTML & CSS - Primeiros passos em CSS_
-- [ :heavy_check_mark: ] 3-3: _HTML & CSS - Seletores e posicionamento_
-- [ :heavy_check_mark: ] 3-4: _HTML Semântico_
-- [ :heavy_check_mark: ] 3-5: _[Projeto - HTML & CSS - Lessons Learned](https://andersonfpcorrea.github.io/projects/lessons-learned/)_
+[ :heavy_check_mark: ] 3-1: _HTML & CSS - Estruturas de página_
+[ :heavy_check_mark: ] 3-2: _HTML & CSS - Primeiros passos em CSS_
+[ :heavy_check_mark: ] 3-3: _HTML & CSS - Seletores e posicionamento_
+[ :heavy_check_mark: ] 3-4: _HTML Semântico_
+[ :heavy_check_mark: ] 3-5: _[Projeto - HTML & CSS - Lessons Learned](https://andersonfpcorrea.github.io/projects/lessons-learned/)_
 
 ##### Bloco 4: Introdução - JavaScript e Lógica de Programação
 
-- [ :heavy_check_mark: ] 4-1: _JavaScript - Primeiros passos_
-- [ :heavy_check_mark: ] 4-2: _JavaScript - Array e loop For_
-- [ :heavy_check_mark: ] 4-3: _JavaScript - Lógica de Programação e Algoritmos_
-- [ :heavy_check_mark: ] 4-4: _JavaScript - Objetos e funções_
-- [ :heavy_check_mark: ] 4-5: _[Projeto - Playground Functions](https://github.com/andersonfpcorrea/andersonfpcorrea.github.io/tree/master/projects/playground-functions)_
+[ :heavy_check_mark: ] 4-1: _JavaScript - Primeiros passos_
+[ :heavy_check_mark: ] 4-2: _JavaScript - Array e loop For_
+[ :heavy_check_mark: ] 4-3: _JavaScript - Lógica de Programação e Algoritmos_
+[ :heavy_check_mark: ] 4-4: _JavaScript - Objetos e funções_
+[ :heavy_check_mark: ] 4-5: _[Projeto - Playground Functions](https://github.com/andersonfpcorrea/andersonfpcorrea.github.io/tree/master/projects/playground-functions)_
 
 ##### Bloco 5: JavaScript: DOM, Eventos e Web Storage
 
-- [ :heavy_check_mark: ] 5-1: _JavaScript - DOM e seletores_
-- [ :heavy_check_mark: ] 5-2: _JavaScript - Trabalhando com elementos_
-- [ ] 5-3: _JavaScript - Eventos_
-- [ ] 5-4: _JavaScript - Web Storage_
-- [ ] 5-5: _[Projeto - Arte com Pixels]()_
+[ :heavy_check_mark: ] 5-1: _JavaScript - DOM e seletores_
+[ :heavy_check_mark: ] 5-2: _JavaScript - Trabalhando com elementos_
+
+[ :heavy_check_mark: ] 5-3: _JavaScript - Eventos_
+[ :heavy_check_mark: ] 5-4: _JavaScript - Web Storage_
+[ :heavy_check_mark: ] 5-5: _[Projeto - Arte com Pixels](https://github.com/andersonfpcorrea/andersonfpcorrea.github.io/tree/master/projects/pixels-art)_
+
 - [ ] 5-6: _[Projeto - Lista de Tarefas]()_
 - [ ] 5-7: _[Projeto - Meme Generator]()_
-- [ ] 5-7: _[Projeto - Adivinhe a Cor]()_
+      [ :heavy_check_mark: ] 5-7: _[Projeto - Adivinhe a Cor](https://github.com/andersonfpcorrea/andersonfpcorrea.github.io/tree/master/projects/color-guess)_
 - [ ] 5-7: _[Projeto - Carta Misteriosa]()_
 
 ##### Bloco 6: HTML & CSS: Forms, Flexbox e Responsivo
