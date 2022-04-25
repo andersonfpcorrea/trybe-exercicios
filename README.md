@@ -44,7 +44,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [ :heavy_check_mark: ] 5-4: _JavaScript - Web Storage_
 - [ :heavy_check_mark: ] 5-5: _[Projeto - Arte com Pixels](https://github.com/andersonfpcorrea/andersonfpcorrea.github.io/tree/master/projects/pixels-art)_
 - [ :heavy_check_mark: ] 5-6: _[Projeto - Lista de Tarefas](https://github.com/andersonfpcorrea/andersonfpcorrea.github.io/tree/master/projects/todo-list)_
-- [ ] 5-7: _[Projeto - Meme Generator]()_
+- [ :heavy_check_mark: ] 5-7: _[Projeto - Meme Generator](https://github.com/andersonfpcorrea/andersonfpcorrea.github.io/tree/master/projects/meme-generator)_
 - [ :heavy_check_mark: ] 5-7: _[Projeto - Adivinhe a Cor](https://github.com/andersonfpcorrea/andersonfpcorrea.github.io/tree/master/projects/color-guess)_
 - [ ] 5-7: _[Projeto - Carta Misteriosa]()_
 
