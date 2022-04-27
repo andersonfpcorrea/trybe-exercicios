@@ -1,53 +1,19 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-html {
-  font-size: 62.5%;
-}
-
 body {
-  font-family: sans-serif;
-  color: #555;
-  font-size: 2rem;
+  max-width: 80%;
+  margin: 10vh auto;
+  background: linear-gradient(to left, #28b487, #7dd56f);
+  color: white;
 }
 
 header {
-  margin: 4rem 2rem;
+  margin: 10vh 0;
 }
 
 form {
-  margin: 2rem 1.5rem;
+  background: linear-gradient(to left, #28b487, #7dd56f);
+  box-shadow: 5px 10px 20px rgba(17, 17, 17, 0.3);
 }
 
-.form-inner-container {
-  padding: 1rem 4rem;
-  margin: 2rem 0;
-  border: 5px solid black;
-}
-
-.form-inner-div {
-  margin: 4rem 0;
-}
-
-.margin-bottom-small {
-  display: inline-block;
-  margin-bottom: 1rem;
-}
-
-.margin-right-small {
-  display: inline-block;
-  margin-right: 2rem;
-}
-
-.form-btn {
-  cursor: pointer;
-  padding: 1rem;
-  font-size: inherit;
-  color: inherit;
-  background-color: #fff;
-  border: 1px solid #555;
-  border-radius: 15px;
+form.form-control {
+  padding: 30px;
 }
