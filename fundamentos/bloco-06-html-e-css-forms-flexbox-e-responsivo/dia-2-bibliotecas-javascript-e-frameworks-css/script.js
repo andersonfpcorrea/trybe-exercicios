@@ -9,3 +9,7 @@ form.addEventListener("submit", (submitEvent) => {
       "Dados enviados com sucesso! Obrigado por participar do concurso TrybeTrip."
     );
 });
+
+// Bonus
+// Date picker
+document.getElementById("date").DatePickerX.init();

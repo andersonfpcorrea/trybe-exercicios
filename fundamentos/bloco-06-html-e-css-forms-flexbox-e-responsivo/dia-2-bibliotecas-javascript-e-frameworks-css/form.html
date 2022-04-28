@@ -10,6 +10,8 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="DatePickerX.min.css" />
+    <script src="DatePickerX.min.js"></script>
     <link rel="stylesheet" href="style.css" />
     <title>Exercise/6.1</title>
   </head>
@@ -104,22 +106,29 @@
 
         <div id="best-date" class="mb-3 form-control">
           <label for="date">Qual a melhor data para realizar sua viagem?</label>
-          <input type="date" name="date" id="date" />
+          <input name="date" id="date" />
         </div>
 
         <div id="conditions" class="mb-3 form-control">
-          <input type="checkbox" name="condition" id="condition-one" />
-          <label for="condition-one"
-            >Gostaria de receber outras incríveis oportunidades oferecidas pela
-            Trybe?</label
-          >
-          <br />
-
-          <input type="checkbox" name="condition" id="condition-two" required />
-          <label for="condition-two"
-            >Concordo que imagens das minhas férias poderão ser usadas na
-            divulgação de concursos futuros.</label
-          >
+          <div class="checkbox">
+            <input type="checkbox" name="condition" id="condition-one" />
+            <label for="condition-one"
+              >Gostaria de receber outras incríveis oportunidades oferecidas
+              pela Trybe?</label
+            >
+          </div>
+          <div class="checkbox">
+            <input
+              type="checkbox"
+              name="condition"
+              id="condition-two"
+              required
+            />
+            <label for="condition-two"
+              >Concordo que imagens das minhas férias poderão ser usadas em
+              divulgações.</label
+            >
+          </div>
         </div>
       </div>
 

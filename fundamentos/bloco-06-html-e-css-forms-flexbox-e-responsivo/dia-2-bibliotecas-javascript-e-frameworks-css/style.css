@@ -17,3 +17,14 @@ form {
 form.form-control {
   padding: 30px;
 }
+
+.checkbox {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+#submit-btn {
+  margin-right: 10px;
+}
