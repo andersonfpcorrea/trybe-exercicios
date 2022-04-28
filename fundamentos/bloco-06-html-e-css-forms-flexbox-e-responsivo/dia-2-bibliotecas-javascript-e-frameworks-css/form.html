@@ -12,6 +12,9 @@
     />
     <link rel="stylesheet" href="DatePickerX.min.css" />
     <script src="DatePickerX.min.js"></script>
+    <link href="validation.min.css" rel="stylesheet" />
+    <script src="validation.min.js"></script>
+
     <link rel="stylesheet" href="style.css" />
     <title>Exercise/6.1</title>
   </head>
@@ -25,14 +28,7 @@
       <div class="mb-3">
         <div id="name-email" class="mb-3 form-control">
           <label for="name">Nome Completo:</label>
-          <input
-            type="text"
-            name="name"
-            id="name"
-            minlength="10"
-            maxlength="40"
-            class="form-control"
-          />
+          <input type="text" name="name" id="name" class="form-control" />
           <br />
           <label for="email">Email:</label>
           <input
@@ -42,6 +38,8 @@
             minlength="10"
             maxlength="50"
             class="form-control"
+            minlength="10"
+            maxlength="40"
           />
         </div>
 
