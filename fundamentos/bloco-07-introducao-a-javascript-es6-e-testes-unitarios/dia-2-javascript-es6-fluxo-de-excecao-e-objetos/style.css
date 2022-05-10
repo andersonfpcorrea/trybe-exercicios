@@ -1,0 +1,11 @@
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to bottom right, gold, cyan);
+  color: white;
+  font-weight: 900;
+  font-size: 1.2rem;
+}
