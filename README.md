@@ -25,7 +25,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [ :heavy_check_mark: ] 3-2: _HTML & CSS - Primeiros passos em CSS_
 - [ :heavy_check_mark: ] 3-3: _HTML & CSS - Seletores e posicionamento_
 - [ :heavy_check_mark: ] 3-4: _HTML Semântico_
-- [ :heavy_check_mark: ] 3-5: _[Projeto - HTML & CSS - Lessons Learned](https://andersonfpcorrea.github.io/projects/lessons-learned/)_
+- [ :heavy_check_mark: ] 3-5: _[Projeto - HTML & CSS - Lessons Learned](https://github.com/andersonfpcorrea/andersonfpcorrea.github.io/tree/master/projects/trybe-projects/lessons-learned)_
 
 ##### Bloco 4: Introdução - JavaScript e Lógica de Programação
 
@@ -33,7 +33,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [ :heavy_check_mark: ] 4-2: _JavaScript - Array e loop For_
 - [ :heavy_check_mark: ] 4-3: _JavaScript - Lógica de Programação e Algoritmos_
 - [ :heavy_check_mark: ] 4-4: _JavaScript - Objetos e funções_
-- [ :heavy_check_mark: ] 4-5: _[Projeto - Playground Functions](https://github.com/andersonfpcorrea/andersonfpcorrea.github.io/tree/master/projects/playground-functions)_
+- [ :heavy_check_mark: ] 4-5: _[Projeto - Playground Functions](https://github.com/andersonfpcorrea/andersonfpcorrea.github.io/tree/master/projects/trybe-projects/playground-functions)_
 
 ##### Bloco 5: JavaScript: DOM, Eventos e Web Storage
 
@@ -41,11 +41,11 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [ :heavy_check_mark: ] 5-2: _JavaScript - Trabalhando com elementos_
 - [ :heavy_check_mark: ] 5-3: _JavaScript - Eventos_
 - [ :heavy_check_mark: ] 5-4: _JavaScript - Web Storage_
-- [ :heavy_check_mark: ] 5-5: _[Projeto - Arte com Pixels](https://github.com/andersonfpcorrea/andersonfpcorrea.github.io/tree/master/projects/pixels-art)_
-- [ :heavy_check_mark: ] 5-6: _[Projeto - Lista de Tarefas](https://github.com/andersonfpcorrea/andersonfpcorrea.github.io/tree/master/projects/todo-list)_
-- [ :heavy_check_mark: ] 5-7: _[Projeto - Meme Generator](https://github.com/andersonfpcorrea/andersonfpcorrea.github.io/tree/master/projects/meme-generator)_
-- [ :heavy_check_mark: ] 5-7: _[Projeto - Adivinhe a Cor](https://github.com/andersonfpcorrea/andersonfpcorrea.github.io/tree/master/projects/color-guess)_
-- [ :heavy_check_mark: ] 5-7: _[Projeto - Carta Misteriosa](https://github.com/andersonfpcorrea/andersonfpcorrea.github.io/tree/master/projects/mistery-letter-project)_
+- [ :heavy_check_mark: ] 5-5: _[Projeto - Arte com Pixels](https://github.com/andersonfpcorrea/andersonfpcorrea.github.io/tree/master/projects/trybe-projects/pixels-art)_
+- [ :heavy_check_mark: ] 5-6: _[Projeto - Lista de Tarefas](https://github.com/andersonfpcorrea/andersonfpcorrea.github.io/tree/master/projects/trybe-projects/todo-list)_
+- [ :heavy_check_mark: ] 5-7: _[Projeto - Meme Generator](https://github.com/andersonfpcorrea/andersonfpcorrea.github.io/tree/master/projects/trybe-projects/meme-generator)_
+- [ :heavy_check_mark: ] 5-7: _[Projeto - Adivinhe a Cor](https://github.com/andersonfpcorrea/andersonfpcorrea.github.io/tree/master/projects/trybe-projects/color-guess)_
+- [ :heavy_check_mark: ] 5-7: _[Projeto - Carta Misteriosa](https://github.com/andersonfpcorrea/andersonfpcorrea.github.io/tree/master/projects/trybe-projects/mistery-letter-project)_
 
 ##### Bloco 6: HTML & CSS: Forms, Flexbox e Responsivo
 
