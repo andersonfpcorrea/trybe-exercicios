@@ -15,7 +15,7 @@ const newEmployees = (newMember) => {
   return employees;
 };
 
-console.log(newEmployees(newMember));
+// console.log(newEmployees(newMember));
 
 // Exercise 2
 const checkFunction = (betNumber) => {
@@ -28,7 +28,7 @@ const result = (betNumber, checkFunction) => {
   return checkFunction(betNumber);
 };
 
-console.log(result(5, checkFunction));
+// console.log(result(5, checkFunction));
 
 // Exercise 3
 const checkIfRight = (rightArr, toBeCheckedArr) => {
@@ -48,4 +48,62 @@ const answerFunction = (rightArr, toBeCheckedArr, checkIfRight) => {
 const RIGHT_ANSWERS = ['A', 'C', 'B', 'D', 'A', 'A', 'D', 'A', 'D', 'C'];
 const STUDENT_ANSWERS = ['A', 'N.A', 'B', 'D', 'A', 'C', 'N.A', 'A', 'D', 'B'];
 
-console.log(answerFunction(RIGHT_ANSWERS, STUDENT_ANSWERS, checkIfRight));
+// console.log(answerFunction(RIGHT_ANSWERS, STUDENT_ANSWERS, checkIfRight));
+
+// Bonus exercises
+// Part 1
+const mage = {
+  healthPoints: 130,
+  intelligence: 45,
+  mana: 125,
+  damage: undefined,
+};
+
+const warrior = {
+  healthPoints: 200,
+  strength: 30,
+  weaponDmg: 2,
+  damage: undefined,
+};
+
+const dragon = {
+  healthPoints: 350,
+  strength: 50,
+  damage: undefined,
+};
+
+const battleMembers = { mage, warrior, dragon };
+
+// 1. Dragon damage function:
+const dragonDamage = () => {
+  return Math.round(Math.random() * (dragon.strength - 15) + 15);
+};
+console.log('dragonDamage = ' + dragonDamage());
+
+// 2. Warrior damage function:
+const warriorDamge = () => {
+  return Math.round(
+    Math.random() * (warrior.strength * warrior.weaponDmg - warrior.strength) +
+      warrior.strength
+  );
+};
+console.log('warriorDamage = ' + warriorDamge());
+
+// 3. Mage damage function:
+// Continue coding from here:
+const mageDamage = (mage) => ({
+  damage: Math.round(
+    Math.random() * (mage.intelligence * 2 - mage.intelligence) +
+      mage.intelligence
+  ),
+  mana(mage) {
+    if (mage.mana < 15) return (this.damage = 'Não possui mana suficiente');
+    else mage.mana -= 15;
+  },
+});
+
+// Part 2
+const gameActions = {
+  // 1.
+  warriorShift(warriorDamage) {},
+};
