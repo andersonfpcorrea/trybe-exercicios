@@ -1,6 +1,6 @@
 # Front-end development
 
-### JavaScript and assync tests
+### JavaScript and async tests
 
 ## Você será capaz de:
 
