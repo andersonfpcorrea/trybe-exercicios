@@ -1,3 +1,8 @@
+// Selectors
+const listElement = document.querySelector('#coins-list');
+const btn = document.querySelector('#btn');
+
+// Rendering of the list
 const listRendering = async () => {
   const url = 'https://api.coincap.io/v2/assets';
 
@@ -5,19 +10,59 @@ const listRendering = async () => {
     .then((response) => response.json())
     .then((data) => data.data);
 
-  const listElement = document.querySelector('#coins-list');
   response
     .filter((_, i) => i < 10)
     .forEach((coin) => {
       const li = document.createElement('li');
-      li.textContent = `${coin.name} (${coin.symbol}): ${Number(
-        coin.priceUsd
-      ).toFixed(2)}`;
+      li.innerHTML = `${coin.name} (${
+        coin.symbol
+      }): <span class="price">${Number(coin.priceUsd).toFixed(
+        2
+      )} US Dollars</span>`;
       listElement.appendChild(li);
     });
 };
 
+// Display in Brazilian Reais
+const currencyToReais = async () => {
+  const urlRates = 'https://api.coincap.io/v2/rates';
+  const rateInReais = +(
+    await fetch(urlRates)
+      .then((response) => response.json())
+      .then((rates) => rates.data)
+  ).find((cur) => cur.id === 'brazilian-real').rateUsd;
+  console.log(rateInReais);
+  const spanPrice = Array.from(document.querySelectorAll('.price'));
+  const priceInUSD = spanPrice.map((li) => Number.parseFloat(li.innerHTML, 2));
+  console.log(priceInUSD);
+  spanPrice.forEach(
+    (span, i) =>
+      (span.innerHTML = `${Number(priceInUSD[i] / rateInReais).toFixed(
+        2
+      )} Reais`)
+  );
+};
+
 listRendering();
+
+btn.addEventListener('click', () => {
+  if (
+    Array.from(listElement.children).some((li) =>
+      li.innerHTML.includes('US Dollars')
+    )
+  ) {
+    currencyToReais();
+    return;
+  }
+  if (
+    Array.from(listElement.children).some((li) =>
+      li.innerHTML.includes('Reais')
+    )
+  )
+    listElement.innerHTML = '';
+  listRendering();
+});
+// currencyToReais();
 // 0: {id: 'bitcoin', rank: '1', symbol: 'BTC', name: 'Bitcoin', supply: '19055712.0000000000000000', …}
 // 1: {id: 'ethereum', rank: '2', symbol: 'ETH', name: 'Ethereum', supply: '121012928.4990000000000000', …}
 // 2: {id: 'tether', rank: '3', symbol: 'USDT', name: 'Tether', supply: '72538449554.0472900000000000', …}
