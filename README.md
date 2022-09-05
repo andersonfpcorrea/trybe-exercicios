@@ -79,7 +79,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [ :heavy_check_mark: ] 9-3: _JavaScript Assíncronos - Jest - Testes Assíncronos_
 - [ :heavy_check_mark: ] 9-4: Projeto - Carrinho de Compras
 
-## Desenvolvimento Front-end :hourglass_flowing_sand:
+## Desenvolvimento Front-end :heavy_check_mark:
 
 ##### Bloco 10: Introdução - React
 
