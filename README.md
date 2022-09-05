@@ -25,7 +25,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [ :heavy_check_mark: ] 3-2: _HTML & CSS - Primeiros passos em CSS_
 - [ :heavy_check_mark: ] 3-3: _HTML & CSS - Seletores e posicionamento_
 - [ :heavy_check_mark: ] 3-4: _HTML Semântico_
-- [ :heavy_check_mark: ] 3-5: _[Projeto - HTML & CSS - Lessons Learned](https://andersonfpcorrea.github.io/projects/lessons-learned/)_
+- [ :heavy_check_mark: ] 3-5: Projeto - HTML & CSS - Lessons Learned
 
 ##### Bloco 4: Introdução - JavaScript e Lógica de Programação
 
@@ -33,7 +33,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [ :heavy_check_mark: ] 4-2: _JavaScript - Array e loop For_
 - [ :heavy_check_mark: ] 4-3: _JavaScript - Lógica de Programação e Algoritmos_
 - [ :heavy_check_mark: ] 4-4: _JavaScript - Objetos e funções_
-- [ :heavy_check_mark: ] 4-5: _[Projeto - Playground Functions](https://github.com/andersonfpcorrea/andersonfpcorrea.github.io/tree/master/projects/playground-functions)_
+- [ :heavy_check_mark: ] 4-5: Projeto - Playground Functions
 
 ##### Bloco 5: JavaScript: DOM, Eventos e Web Storage
 
@@ -41,11 +41,11 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [ :heavy_check_mark: ] 5-2: _JavaScript - Trabalhando com elementos_
 - [ :heavy_check_mark: ] 5-3: _JavaScript - Eventos_
 - [ :heavy_check_mark: ] 5-4: _JavaScript - Web Storage_
-- [ :heavy_check_mark: ] 5-5: _[Projeto - Arte com Pixels](https://github.com/andersonfpcorrea/andersonfpcorrea.github.io/tree/master/projects/pixels-art)_
-- [ :heavy_check_mark: ] 5-6: _[Projeto - Lista de Tarefas](https://github.com/andersonfpcorrea/andersonfpcorrea.github.io/tree/master/projects/todo-list)_
-- [ :heavy_check_mark: ] 5-7: _[Projeto - Meme Generator](https://github.com/andersonfpcorrea/andersonfpcorrea.github.io/tree/master/projects/meme-generator)_
-- [ :heavy_check_mark: ] 5-7: _[Projeto - Adivinhe a Cor](https://github.com/andersonfpcorrea/andersonfpcorrea.github.io/tree/master/projects/color-guess)_
-- [ :heavy_check_mark: ] 5-7: _[Projeto - Carta Misteriosa](https://github.com/andersonfpcorrea/andersonfpcorrea.github.io/tree/master/projects/mistery-letter-project)_
+- [ :heavy_check_mark: ] 5-5: Projeto - Arte com Pixels
+- [ :heavy_check_mark: ] 5-6: Projeto - Lista de Tarefas
+- [ :heavy_check_mark: ] 5-7: Projeto - Meme Generator
+- [ :heavy_check_mark: ] 5-7: Projeto - Adivinhe a Cor
+- [ :heavy_check_mark: ] 5-7: Projeto - Carta Misteriosa
 
 ##### Bloco 6: HTML & CSS: Forms, Flexbox e Responsivo
 
@@ -54,14 +54,14 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [ :heavy_check_mark: ] 6-3: _CSS Flexbox - Part 1_
 - [ :heavy_check_mark: ] 6-4: _CSS Flexbox - Part 2_
 - [ :heavy_check_mark: ] 6-5: _CSS Responsivo - Mobile First_
-- [ :heavy_check_mark: ] 6-6: _[Projeto - Trybewarts](https://github.com/andersonfpcorrea/andersonfpcorrea.github.io/tree/master/projects/trybe-projects/trybewarts)_
+- [ :heavy_check_mark: ] 6-6: Projeto - Trybewarts
 
 ##### Bloco 7: JavaScript ES6 & Testes Unitários
 
 - [ :heavy_check_mark: ] 7-1: _JavaScript ES6 - let, const, arrow functions e template literals_
 - [ :heavy_check_mark: ] 7-2: _JavaScript ES6 - Fluxo de exceções e Objects_
 - [ :heavy_check_mark: ] 7-3: _Primeiros passos em Jest_
-- [ :heavy_check_mark: ] 7-4: _[Projeto - JavaScript em Testes Unitários]()_
+- [ :heavy_check_mark: ] 7-4: Projeto - JavaScript em Testes Unitários
 
 ##### Bloco 8: Higher Order Functions do JavaScript ES6
 
@@ -70,70 +70,70 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [ :heavy_check_mark: ] 8-3: _JavaScript ES6 - Higher Order Functions - map e filter_
 - [ :heavy_check_mark: ] 8-4: _JavaScript ES6 - Higher Order Functions - reduce_
 - [ :heavy_check_mark: ] 8-5: _JavaScript ES6 - spread operator, rest parameter, destructuring e mais_
-- [ :heavy_check_mark: ] 8-6: _[Projeto - Zoo functions]()_
+- [ :heavy_check_mark: ] 8-6: Projeto - Zoo functions
 
 ##### Bloco 9: JavaScript e Testes Assíncronos
 
 - [ :heavy_check_mark: ] 9-1: _JavaScript Assíncrono e Callbacks_
 - [ :heavy_check_mark: ] 9-2: _JavaScript Assíncronos - Fetch API e async/await_
 - [ :heavy_check_mark: ] 9-3: _JavaScript Assíncronos - Jest - Testes Assíncronos_
-- [ :heavy_check_mark: ] 9-4: _[Projeto - Carrinho de Compras]()_
+- [ :heavy_check_mark: ] 9-4: Projeto - Carrinho de Compras
 
 ## Desenvolvimento Front-end :hourglass_flowing_sand:
 
 ##### Bloco 10: Introdução - React
 
-- [ ] 11-1: _'Hello, world!' no React!_
-- [ ] 11-2: _Componentes React_
-- [ ] 11-3: _[Projeto - Sistema Solar]()_
+- [ :heavy_check_mark: ] 11-1: _'Hello, world!' no React!_
+- [ :heavy_check_mark: ] 11-2: _Componentes React_
+- [ :heavy_check_mark: ] 11-3: Projeto - Sistema Solar
 
 ##### Bloco 11: Componentes com Estado, Eventos e Formulários com React
 
-- [ ] 11-1: _Components com estado e eventos_
-- [ ] 11-2: _Formulários no React_
-- [ ] 11-3: _[Projeto - Tryunfo]()_
+- [ :heavy_check_mark: ] 11-1: _Components com estado e eventos_
+- [ :heavy_check_mark: ] 11-2: _Formulários no React_
+- [ :heavy_check_mark: ] 11-3: Projeto - Tryunfo
 
 ##### Bloco 12: Ciclo de Vida de Componentes e React Router
 
-- [ ] 12-1: _Ciclo de vida de componentes_
-- [ ] 12-3: _React Router_
-- [ ] 12-4: _[Projeto - TrybeTunes]()_
+- [ :heavy_check_mark: ] 12-1: _Ciclo de vida de componentes_
+- [ :heavy_check_mark: ] 12-3: _React Router_
+- [ :heavy_check_mark: ] 12-4: Projeto - TrybeTunes
 
 ##### Bloco 13: Metodologias Ágeis
 
-- [ ] 13-1: _Metodologias Ágeis_
-- [ ] 13-2: _[Projeto - Frontend Online Store]()_
+- [ :heavy_check_mark: ] 13-1: _Metodologias Ágeis_
+- [ :heavy_check_mark: ] 13-2: Projeto - Frontend Online Store
 
 ##### Bloco 14: Testes automatizados com React Testing Library
 
-- [ ] 14-1: _RTL - Primeiros Passos_
-- [ ] 14-2: _RTL: Mocks e Inputs_
-- [ ] 14-3: _RTL: Testando React Router_
-- [ ] 14-4: _[Projeto - Testes em React]()_
+- [ :heavy_check_mark: ] 14-1: _RTL - Primeiros Passos_
+- [ :heavy_check_mark: ] 14-2: _RTL: Mocks e Inputs_
+- [ :heavy_check_mark: ] 14-3: _RTL: Testando React Router_
+- [ :heavy_check_mark: ] 14-4: Projeto - Testes em React
 
 ##### Bloco 15: Gerenciamento de estado com Redux
 
-- [ ] 16-1: _Introdução ao Redux_
-- [ ] 16-2: _React com Redux - Parte 1_
-- [ ] 16-3: _React com Redux - Prática_
-- [ ] 16-4: _React com Redux - Actions Assíncronas_
-- [ ] 16-5: _Testes em React-Redux_
-- [ ] 16-6: _[Projeto - Trybe Wallet]()_
+- [ :heavy_check_mark: ] 16-1: _Introdução ao Redux_
+- [ :heavy_check_mark: ] 16-2: _React com Redux - Parte 1_
+- [ :heavy_check_mark: ] 16-3: _React com Redux - Prática_
+- [ :heavy_check_mark: ] 16-4: _React com Redux - Actions Assíncronas_
+- [ :heavy_check_mark: ] 16-5: _Testes em React-Redux_
+- [ :heavy_check_mark: ] 16-6: Projeto - Trybe Wallet
 
 ##### Bloco 16: Projeto Jogo de Trivia
 
-- [ ] 16-1: _[Projeto - Jogo de Trivia]()_
+- [ :heavy_check_mark: ] 16-1: Projeto - Jogo de Trivia
 
 ##### Bloco 17: Context API & React Hooks
 
-- [ ] 17-1: _Context API do React_
-- [ ] 17-2: _React Hooks - useState e useContext_
-- [ ] 17-3: _React Hooks - useEffect e Hooks customizados_
-- [ ] 17-4: _[Projeto - StarWars Datatable com Context API e Hooks]()_
+- [ :heavy_check_mark: ] 17-1: _Context API do React_
+- [ :heavy_check_mark: ] 17-2: _React Hooks - useState e useContext_
+- [ :heavy_check_mark: ] 17-3: _React Hooks - useEffect e Hooks customizados_
+- [ :heavy_check_mark: ] 17-4: Projeto - StarWars Datatable com Context API e Hooks
 
 ##### Bloco 18: Projeto Final de Front-end
 
-- [ ] 18-1: _[Projeto - App de Receitas]()_
+- [ :heavy_check_mark: ] 18-1: Projeto - App de Receitas
 
 ## Desenvolvimento Back-end :hourglass_flowing_sand:
 
