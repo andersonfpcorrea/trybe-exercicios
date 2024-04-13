@@ -178,95 +178,95 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ##### Bloco 24: Node.js: ORM e Autenticação
 
-- [ ] 24-1: _ORM - Interface da aplicação com o banco de dados_
-- [ ] 24-2: _ORM - Associations_
-- [ ] 24-3: _JWT - (JSON Web Token)_
-- [ ] 24-4: _Testando APIs com Testes de Integração_
-- [ ] 24-3: _[Projeto - API de Blogs]()_
+- [ :heavy_check_mark: ] 24-1: _ORM - Interface da aplicação com o banco de dados_
+- [ :heavy_check_mark: ] 24-2: _ORM - Associations_
+- [ :heavy_check_mark: ] 24-3: _JWT - (JSON Web Token)_
+- [ :heavy_check_mark: ] 24-4: _Testando APIs com Testes de Integração_
+- [ :heavy_check_mark: ] 24-3: _[Projeto - API de Blogs]()_
 
 ##### Bloco 25: Intro - NodeJS
 
-- [ ] 25-1: _Infraestrutura - Deploy com Heroku_
-- [ ] 25-2: _Deploy Docker & Heroku_
-- [ ] 25-3: _[Projeto - Stranger Things]()_
+- [ :heavy_check_mark: ] 25-1: _Infraestrutura - Deploy com Heroku_
+- [ :heavy_check_mark: ] 25-2: _Deploy Docker & Heroku_
+- [ :heavy_check_mark: ] 25-3: _[Projeto - Stranger Things]()_
 
 ##### Bloco 26: TypeScript
 
-- [ ] 26-1: _Introdução ao TypeScript_
-- [ ] 26-2: _Tipagem Estática e Generics_
-- [ ] 26-3: _Express com TypeScript_
-- [ ] 26-4: _[Projeto - Trybe Smith]()_
+- [ :heavy_check_mark: ] 26-1: _Introdução ao TypeScript_
+- [ :heavy_check_mark: ] 26-2: _Tipagem Estática e Generics_
+- [ :heavy_check_mark: ] 26-3: _Express com TypeScript_
+- [ :heavy_check_mark: ] 26-4: _[Projeto - Trybe Smith]()_
 
 ##### Bloco 27: Programação Orientada a Objetos (POO) e SOLID
 
-- [ ] 27-1: _Introdução à Orientação a Objetos_
-- [ ] 27-2: _Herança e Interfaces_
-- [ ] 27-3: _Polimorfismo_
-- [ ] 27-4: _SOLID - Introdução e Princípios S, O e D_
-- [ ] 27-5: _SOLID - Princípios L e I_
-- [ ] 27-6: _[Projeto - Trybers and Dragons]()_
+- [ :heavy_check_mark: ] 27-1: _Introdução à Orientação a Objetos_
+- [ :heavy_check_mark: ] 27-2: _Herança e Interfaces_
+- [ :heavy_check_mark: ] 27-3: _Polimorfismo_
+- [ :heavy_check_mark: ] 27-4: _SOLID - Introdução e Princípios S, O e D_
+- [ :heavy_check_mark: ] 27-5: _SOLID - Princípios L e I_
+- [ :heavy_check_mark: ] 27-6: _[Projeto - Trybers and Dragons]()_
 
 ##### Bloco 28: Projeto - TFC - Trybe Futebol Clube
 
-- [ ] 28-3: _[Projeto - TFC - Trybe Futebol Clube]()_
+- [ :heavy_check_mark: ] 28-3: _[Projeto - TFC - Trybe Futebol Clube]()_
 
 ##### Bloco 29:  Introdução ao MongoDB
 
-- [ ] 29-1: _NoSQL &  MongoDB_
-- [ ] 29-2: _Filter Operators_
-- [ ] 29-3: _Operadores de consulta_
-- [ ] 29-4: _Updates Simples_
-- [ ] 29-5: _Updates Complexos - Arrays_
-- [ ] 29-6: _[Projeto - Commerce]()_
+- [ :heavy_check_mark: ] 29-1: _NoSQL &  MongoDB_
+- [ :heavy_check_mark: ] 29-2: _Filter Operators_
+- [ :heavy_check_mark: ] 29-3: _Operadores de consulta_
+- [ :heavy_check_mark: ] 29-4: _Updates Simples_
+- [ :heavy_check_mark: ] 29-5: _Updates Complexos - Arrays_
+- [ :heavy_check_mark: ] 29-6: _[Projeto - Commerce]()_
 
 ##### Bloco 31: MasterClass - VPS, CI/CD
 
-- [ ] 31-1: _[Projeto]()_
+- [ :heavy_check_mark: ] 31-1: _[Projeto]()_
 
 ##### Bloco 32: Projeto - App de Delivery
 
-- [ ] 31-2: _[Projeto - Projeto - App de Delivery]()_
+- [ :heavy_check_mark: ] 31-2: _[Projeto - Projeto - App de Delivery]()_
 
 ## Ciência da Computação :hourglass_flowing_sand:
 
 ##### Bloco 33: Introdução à Python
 
-- [ ] 33-1: _Aprendendo Python_
-- [ ] 33-2: _Entrada e Saída de Dados_
-- [ ] 33-3: _Testes_
-- [ ] 33-4: _[Projeto - Job Insights]()_
+- [ :heavy_check_mark: ] 33-1: _Aprendendo Python_
+- [ :heavy_check_mark: ] 33-2: _Entrada e Saída de Dados_
+- [ :heavy_check_mark: ] 33-3: _Testes_
+- [ :heavy_check_mark: ] 33-4: _[Projeto - Job Insights]()_
 
 ##### Bloco 34: Programação Orientada a Objetos e Padrões de Projeto
 
-- [ ] 34-1: _Introdução à programação orientada a objetos_
-- [ ] 34-2: _Herança, Composição e Interfaces_
-- [ ] 34-3: _Padrões de projeto_
-- [ ] 34-4: _[Projeto - Relatórios de Estoque]()_
+- [ :heavy_check_mark: ] 34-1: _Introdução à programação orientada a objetos_
+- [ :heavy_check_mark: ] 34-2: _Herança, Composição e Interfaces_
+- [ :heavy_check_mark: ] 34-3: _Padrões de projeto_
+- [ :heavy_check_mark: ] 34-4: _[Projeto - Relatórios de Estoque]()_
 
 ##### Bloco 34:  Redes e Raspagem de Dados
 
-- [ ] 34-1: _Arquitetura de redes_
-- [ ] 34-2: _Redes de computadores, ferramentas e segurança_
-- [ ] 34-3: _Raspagem de Dados_
-- [ ] 34-4: _[Projeto - Tech news]()_
+- [ :heavy_check_mark: ] 34-1: _Arquitetura de redes_
+- [ :heavy_check_mark: ] 34-2: _Redes de computadores, ferramentas e segurança_
+- [ :heavy_check_mark: ] 34-3: _Raspagem de Dados_
+- [ :heavy_check_mark: ] 34-4: _[Projeto - Tech news]()_
 
 ##### Bloco 36:  Algoritmos
 
-- [ ] 36-1: _Complexidade de Algoritmos_
-- [ ] 36-2: _Recursividade e Estratégias para solução de problemas_
-- [ ] 36-3: _Algoritmos de ordenação e busca_
-- [ ] 36-4: _[Projeto - Algoritmos]()_
+- [ :heavy_check_mark: ] 36-1: _Complexidade de Algoritmos_
+- [ :heavy_check_mark: ] 36-2: _Recursividade e Estratégias para solução de problemas_
+- [ :heavy_check_mark: ] 36-3: _Algoritmos de ordenação e busca_
+- [ :heavy_check_mark: ] 36-4: _[Projeto - Algoritmos]()_
 
 ##### Bloco 37: Estrutura de Dados I: Arrays, Hashmaps e Sets
 
-- [ ] 37-1: _Arquitetura de Computadores_
-- [ ] 37-2: _Arrays_
-- [ ] 37-3: _Hashmap e Dict_
-- [ ] 37-3: _Set_
-- [ ] 37-4: _[Projeto - Restaurant Orders]()_
+- [ :heavy_check_mark: ] 37-1: _Arquitetura de Computadores_
+- [ :heavy_check_mark: ] 37-2: _Arrays_
+- [ :heavy_check_mark: ] 37-3: _Hashmap e Dict_
+- [ :heavy_check_mark: ] 37-3: _Set_
+- [ :heavy_check_mark: ] 37-4: _[Projeto - Restaurant Orders]()_
 
 ##### Bloco 38: Estrutura de Dados II: Listas, Filas e Pilhas
 
-- [ ] 38-1: _Nó e Listas Encadeadas_
-- [ ] 38-2: _Pilhas e Filas_
-- [ ] 38-4: _[Projeto - TING - Trybe Is Not Google]()_
+- [ :heavy_check_mark: ] 38-1: _Nó e Listas Encadeadas_
+- [ :heavy_check_mark: ] 38-2: _Pilhas e Filas_
+- [ :heavy_check_mark: ] 38-4: _[Projeto - TING - Trybe Is Not Google]()_
