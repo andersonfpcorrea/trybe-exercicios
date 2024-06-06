@@ -1,0 +1,30 @@
+body {
+  max-width: 80%;
+  margin: 10vh auto;
+  background: linear-gradient(to left, #28b487, #7dd56f);
+  color: white;
+}
+
+header {
+  margin: 10vh 0;
+}
+
+form {
+  background: linear-gradient(to left, #28b487, #7dd56f);
+  box-shadow: 5px 10px 20px rgba(17, 17, 17, 0.3);
+}
+
+form.form-control {
+  padding: 30px;
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+#submit-btn {
+  margin-right: 10px;
+}
